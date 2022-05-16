@@ -73,3 +73,7 @@ body {
     width: 100%;
 }
 
+.container-principal {
+    display: flex;
+    align-items: center;
+}
