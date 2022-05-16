@@ -46,3 +46,9 @@ body {
 .nav__lista-desordenada .nav__itens {
     list-style-type: none;
 }
+
+.nav__itens .nav__ancora {
+    color: var(--cor-textos-cards);
+    font-family: var(--font-courier);
+    text-transform: uppercase;
+}
