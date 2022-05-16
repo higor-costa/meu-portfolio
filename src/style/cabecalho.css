@@ -27,3 +27,9 @@ body {
 .header {
     padding: 2em 4em;
 }
+
+.container-topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
