@@ -85,3 +85,7 @@ body {
     margin-right: 5em;
     font-weight: 100;
 }
+
+.container-principal .titulo span {
+    font-size: 0.7em;
+}
