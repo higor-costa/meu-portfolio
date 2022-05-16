@@ -55,4 +55,5 @@ body {
     color: var(--cor-textos-cards);
     font-family: var(--font-courier);
     text-transform: uppercase;
+    position: relative;
 }
