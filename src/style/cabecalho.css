@@ -37,3 +37,8 @@ body {
 .nav {
     width: 50%;
 }
+
+.nav__lista-desordenada {
+    display: flex;
+    justify-content: space-evenly;
+}
