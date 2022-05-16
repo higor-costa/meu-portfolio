@@ -96,3 +96,10 @@ body {
     color: var(--cor-textos-cards);
     font-size: 1.5em;
 }
+
+.icones i {
+    margin-right: 20px;
+    border-radius: 50%;
+    border: 1px solid var(--cor-textos-cards);
+    padding: 10px;
+}
