@@ -113,3 +113,8 @@ body {
     border: 1px solid var(--cor-textos-cards);
     padding: 10px;
 }
+
+.icones i:hover {
+    color: red;
+    border-color: red;
+}
