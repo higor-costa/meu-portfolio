@@ -112,10 +112,12 @@ body {
     border-radius: 50%;
     border: 1px solid var(--cor-textos-cards);
     padding: 10px;
-    transition: color .3s, border-color .3s;
 }
 
 .icones i:hover {
     color: red;
     border-color: red;
+}
+.container-principal__foto {
+    width: 20%;
 }
