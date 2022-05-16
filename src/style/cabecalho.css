@@ -42,3 +42,7 @@ body {
     display: flex;
     justify-content: space-evenly;
 }
+
+.nav__lista-desordenada .nav__itens {
+    list-style-type: none;
+}
