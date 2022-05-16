@@ -19,3 +19,7 @@ font-family: 'Courier Prime', monospace;
     --cor-textos-cards: #ffffff;
     --background-botoes: #000000;
 }
+
+body {
+    background-color: var(--background-principal);
+}
