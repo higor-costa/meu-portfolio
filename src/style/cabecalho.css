@@ -78,6 +78,14 @@ body {
     align-items: center;
 }
 
+.container-principal .TituloIcones {
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
 .container-principal .titulo {
     color: var(--cor-textos-cards);
     font-family: var(--font-courier);
