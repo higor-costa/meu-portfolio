@@ -89,3 +89,8 @@ body {
 .container-principal .titulo span {
     font-size: 0.7em;
 }
+
+.icones {
+    width: 60%;
+    text-align: center;
+}
