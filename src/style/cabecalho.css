@@ -33,3 +33,7 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
+.nav {
+    width: 50%;
+}
