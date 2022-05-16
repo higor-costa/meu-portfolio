@@ -34,6 +34,10 @@ body {
     align-items: center;
 }
 
+.container-topo .logo {
+    width: 50px;
+}
+
 .nav {
     width: 50%;
 }
