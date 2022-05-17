@@ -18,6 +18,9 @@
 .sobre-mim__container {
     display: flex;
     align-items: center;
+    width: 50%;
+    margin: auto;
+    align-items: flex-start;
 }
 
 .container__img {
