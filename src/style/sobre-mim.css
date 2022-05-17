@@ -19,3 +19,7 @@
     display: flex;
     align-items: center;
 }
+
+.container__img {
+    width: 15%;
+}
