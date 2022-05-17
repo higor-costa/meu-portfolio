@@ -46,3 +46,8 @@
     border-radius: 15px;
     color: var(--cor-textos-cards);
 }
+
+.container__link {
+    color: var(--background-botoes);
+    font-family: var(--font-courier);
+}
