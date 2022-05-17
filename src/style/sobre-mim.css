@@ -51,7 +51,7 @@
     margin-top: 50px;
     border: none;
     border-radius: 15px;
-    color: var(--cor-textos-cards);
+    transition: .5s;
 }
 
 .container__link {
