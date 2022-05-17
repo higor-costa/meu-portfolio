@@ -6,3 +6,7 @@
     --cor-textos-cards: #ffffff;
     --background-botoes: #000000;
 }
+
+.sobre-mim__titulo {
+    text-align: center;
+}
