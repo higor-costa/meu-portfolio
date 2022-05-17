@@ -10,3 +10,7 @@
 .sobre-mim__titulo {
     text-align: center;
 }
+
+.sobre-mim__titulo, .container__paragrafo {
+    color: var(--cor-textos-cards);
+}
