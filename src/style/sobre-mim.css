@@ -37,6 +37,7 @@
 
 .container__paragrafo {
     text-align: justify;
+    font-family: var(--font-poppins);
 }
 
 .container__button {
