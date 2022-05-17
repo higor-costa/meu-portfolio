@@ -14,3 +14,8 @@
 .sobre-mim__titulo, .container__paragrafo {
     color: var(--cor-textos-cards);
 }
+
+.sobre-mim__container {
+    display: flex;
+    align-items: center;
+}
