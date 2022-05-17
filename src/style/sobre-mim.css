@@ -24,6 +24,8 @@
     width: 15%;
 }
 
-.container__paragrafo {
-    width: 50%;
+.container__ParagrafoButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
