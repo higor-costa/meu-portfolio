@@ -53,9 +53,3 @@
     border-radius: 15px;
     transition: .5s;
 }
-
-.container__link {
-    color: var(--background-botoes);
-    font-family: var(--font-courier);
-    font-weight: 600;
-}
