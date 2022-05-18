@@ -45,6 +45,12 @@
     transform: scale(1.2);
  }
 
+.card__titulo {
+    font-family: var(--font-russo);
+    font-size: .8em;
+    text-transform: uppercase;
+    color: var(--background-principal);
+}
 .container-cards__card .fa-brands {
     font-size: 4em;
     margin-bottom: 20px;
