@@ -22,3 +22,9 @@
 .container-cards {
     display: flex;
 }
+
+.container-cards__card {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
