@@ -40,3 +40,8 @@
     margin-bottom: 20px;
     color: var(--background-principal);
 }
+
+.card__paragrafo {
+    font-family: var(--font-poppins);
+    font-size: 1em;
+}
