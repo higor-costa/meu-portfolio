@@ -46,7 +46,7 @@
     font-family: var(--font-poppins);
 }
 
-.container__button {
+.container__link {
     padding: 10px 20px;
     margin-top: 50px;
     border: none;
