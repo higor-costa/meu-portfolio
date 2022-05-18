@@ -27,4 +27,7 @@
     display: flex;
     flex-direction: column;
     padding: 15px;
+    width: 25em;
+    height: 15em;
+    background: white;
 }
