@@ -47,6 +47,10 @@
 }
 
 .container__link {
+    background-color: var(--cor-textos-cards);
+    color: var(--background-botoes);
+    font-family: var(--font-courier);
+    font-weight: 600;
     padding: 10px 20px;
     margin-top: 50px;
     border: none;
