@@ -37,4 +37,5 @@
 .container-cards__card .fa-brands {
     font-size: 4em;
     margin-bottom: 20px;
+    color: var(--background-principal);
 }
