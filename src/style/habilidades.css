@@ -22,6 +22,7 @@
 
 .container-cards {
     display: flex;
+    justify-content: space-between;
 }
 
 .container-cards__card {
