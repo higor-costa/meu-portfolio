@@ -114,8 +114,8 @@ body {
 }
 
 .icones i:hover {
-    color: red;
-    border-color: red;
+    color: var(--efeitos);
+    border-color: var(--efeitos);
 }
 
 .container-principal__foto {
