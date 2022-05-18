@@ -51,6 +51,7 @@
     text-transform: uppercase;
     color: var(--background-principal);
 }
+
 .container-cards__card .fa-brands {
     font-size: 4em;
     margin-bottom: 20px;
