@@ -33,3 +33,8 @@
     background: white;
     border-radius: 10px;
 }
+
+.container-cards__card .fa-brands {
+    font-size: 4em;
+    margin-bottom: 20px;
+}
