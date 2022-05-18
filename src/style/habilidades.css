@@ -18,3 +18,7 @@
     text-align: center;
     margin-bottom: 100px;
 }
+
+.container-cards {
+    display: flex;
+}
