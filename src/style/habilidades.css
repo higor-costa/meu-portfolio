@@ -34,6 +34,7 @@
     height: 16em;
     background: white;
     border-radius: 10px;
+    transition: transform .5s;
 }
 
 .container-cards__card .fa-brands {
