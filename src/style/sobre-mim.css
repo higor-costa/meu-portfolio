@@ -60,6 +60,6 @@
 }
 
 .container__link:hover {
-    background-color: red;
+    background-color: var(--efeitos);
     color: var(--cor-textos-cards);
 }
