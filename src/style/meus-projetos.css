@@ -32,3 +32,11 @@
     width: 50%;
     height: 18.8em;
 }
+
+.conteudo__texto {
+    height: 18.8em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
