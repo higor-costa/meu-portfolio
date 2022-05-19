@@ -46,3 +46,8 @@
     font-family: var(--font-poppins);
     color: var(--cor-textos-cards);
 }
+
+.texto__paragrafo {
+    text-align: justify;
+    width: 90%;
+}
