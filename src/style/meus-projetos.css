@@ -27,3 +27,8 @@
     justify-content: space-evenly;
     margin-bottom: 50px;
 }
+
+.conteudo__imagem {
+    width: 50%;
+    height: 18.8em;
+}
