@@ -40,3 +40,9 @@
     align-items: center;
     justify-content: space-evenly;
 }
+
+.texto__titulo, 
+.texto__paragrafo {
+    font-family: var(--font-poppins);
+    color: var(--cor-textos-cards);
+}
