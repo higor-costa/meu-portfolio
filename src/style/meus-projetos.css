@@ -70,3 +70,7 @@
     background-color: var(--efeitos);
     color: var(--cor-textos-cards);
 }
+
+.meus-projetos__button {
+    cursor: pointer;
+}
