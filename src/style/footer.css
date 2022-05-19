@@ -19,3 +19,9 @@
 .rodape .logo {
     width: 4em;
 }
+
+.rodape .rodape__direitos {
+    font-size: 1.2em;
+    font-family: var(--font-poppins);
+    color: var(--cor-textos-cards);
+}
