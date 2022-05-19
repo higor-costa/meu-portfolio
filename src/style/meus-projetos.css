@@ -51,3 +51,22 @@
     text-align: justify;
     width: 90%;
 }
+
+.texto__ancora,
+.meus-projetos__button{
+    background-color: var(--cor-textos-cards);
+    color: var(--background-botoes);
+    font-family: var(--font-courier);
+    font-weight: 600;
+    padding: 10px 20px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 15px;
+    transition: .5s;
+}
+
+.texto__ancora:hover,
+.meus-projetos__button:hover {
+    background-color: var(--efeitos);
+    color: var(--cor-textos-cards);
+}
