@@ -10,3 +10,10 @@
     overflow: auto;
     background-color: #000000f0;
 }
+
+.modal__topo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 50px;
+}
