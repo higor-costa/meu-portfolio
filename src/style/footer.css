@@ -27,12 +27,12 @@
     color: var(--cor-textos-cards);
 }
 
-.rodape .seta{
+.seta{
     font-size: 2.5em;
     color: var(--cor-textos-cards);
     transition: .5s;
 }
 
-.rodape .seta:hover {
+.seta:hover {
     color: var(--efeitos);
 }
