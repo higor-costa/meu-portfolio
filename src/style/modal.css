@@ -52,3 +52,9 @@
     background-color: var(--efeitos);
     color: var(--cor-textos-cards);
 }
+
+.modal .texto__links {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
