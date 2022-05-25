@@ -1,11 +1,6 @@
 :root {
     --font-poppins: 'Poppins', sans-serif;
-    --font-courier: 'Courier Prime', monospace;
-
-    --background-principal: #0f100f;
-    --cor-textos-cards: #ffffff;
-    --background-botoes: #000000;
-    --efeitos: #f21905;
+    --branco: #ffffff;
 }
 
 .rodape {
@@ -24,15 +19,5 @@
 .rodape .rodape__direitos {
     font-size: 1.2em;
     font-family: var(--font-poppins);
-    color: var(--cor-textos-cards);
-}
-
-.seta{
-    font-size: 2.5em;
-    color: var(--cor-textos-cards);
-    transition: .5s;
-}
-
-.seta:hover {
-    color: var(--efeitos);
+    color: var(--branco);
 }

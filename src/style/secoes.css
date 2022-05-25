@@ -1,0 +1,54 @@
+:root {
+    --font-poppins: 'Poppins', sans-serif;
+    --font-courier: 'Courier Prime', monospace;
+    --font-russo: 'Russo One', sans-serif;
+
+    --background-pagina: #0f100f;
+    --branco: #ffffff;
+    --preto: #000000;
+    --hover: #f21905;
+}
+
+.secao__titulo {
+    font: 2.5em var(--font-courier);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.secao__titulo,
+.projeto__titulo,
+.paragrafos {
+    color: var(--branco);
+}
+
+.projeto__titulo,
+.paragrafos {
+    font-family: var(--font-poppins);
+}
+
+.botao {
+    background-color: var(--branco);
+    color: var(--preto);
+    font-family: var(--font-courier);
+    font-weight: 600;
+    padding: 10px 20px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 15px;
+    transition: .5s ease-in;
+}
+
+.botao:hover {
+    background-color: var(--hover);
+    color: var(--branco);
+}
+
+.seta {
+    font-size: 2.5em;
+    color: var(--branco);
+    transition: .5s;
+}
+
+.seta:hover {
+    color: var(--hover);
+}
