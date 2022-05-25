@@ -1,13 +1,3 @@
-:root {
-    --font-poppins: 'Poppins', sans-serif;
-    --font-courier: 'Courier Prime', monospace;
-
-    --background-principal: #0f100f;
-    --cor-textos-cards: #ffffff;
-    --background-botoes: #000000;
-    --efeitos: #f21905;
-}
-
 .sobre-mim {
     margin-top: 100px;
 }

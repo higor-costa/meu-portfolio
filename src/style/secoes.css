@@ -3,10 +3,10 @@
     --font-courier: 'Courier Prime', monospace;
     --font-russo: 'Russo One', sans-serif;
 
-    --background-principal: #0f100f;
-    --cor-textos-cards: #ffffff;
-    --background-botoes: #000000;
-    --efeitos: #f21905;
+    --background-pagina: #0f100f;
+    --branco: #ffffff;
+    --preto: #000000;
+    --hover: #f21905;
 }
 
 .secao__titulo {
@@ -16,39 +16,39 @@
 }
 
 .secao__titulo,
-.texto__titulo,
+.projeto__titulo,
 .paragrafos {
-    color: var(--cor-textos-cards);
+    color: var(--branco);
 }
 
-.texto__titulo,
+.projeto__titulo,
 .paragrafos {
     font-family: var(--font-poppins);
 }
 
 .botao {
-    background-color: var(--cor-textos-cards);
-    color: var(--background-botoes);
+    background-color: var(--branco);
+    color: var(--preto);
     font-family: var(--font-courier);
     font-weight: 600;
     padding: 10px 20px;
     margin-top: 50px;
     border: none;
     border-radius: 15px;
-    transition: .5s;
+    transition: .5s ease-in;
 }
 
 .botao:hover {
-    background-color: var(--efeitos);
-    color: var(--cor-textos-cards);
+    background-color: var(--hover);
+    color: var(--branco);
 }
 
 .seta {
     font-size: 2.5em;
-    color: var(--cor-textos-cards);
+    color: var(--branco);
     transition: .5s;
 }
 
 .seta:hover {
-    color: var(--efeitos);
+    color: var(--hover);
 }
