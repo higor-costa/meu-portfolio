@@ -54,5 +54,7 @@
 }
 
 @media screen and (max-width: 1279px) {
-    
+    .botao {
+        margin-top: 0;
+    }
 }
