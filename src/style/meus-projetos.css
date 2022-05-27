@@ -45,5 +45,8 @@
 }
 
 @media screen and (max-width: 1279px) and (min-width: 769px) {
-
+    .projeto__imagem {
+        height: 15rem;
+        width: 55%;
+    }
 }
