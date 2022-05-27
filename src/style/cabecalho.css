@@ -129,12 +129,12 @@ body {
 }
 
 @media screen and (max-width: 768px) and (min-width: 481px) {
-    .TituloIcones {
+    .container-principal .TituloIcones {
         margin-top: 80px;
 	    justify-content: space-evenly;
     }
 
-    .titulo {
+    .container-principal .titulo {
         font-size: 2em;
     }
 }
