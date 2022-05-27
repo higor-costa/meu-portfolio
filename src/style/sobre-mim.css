@@ -12,6 +12,7 @@
 .container__img {
     width: 10rem;
     margin-bottom: 20px;
+    border-radius: 44%;
 }
 
 .container__ParagrafoButton {
