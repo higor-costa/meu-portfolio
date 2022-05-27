@@ -34,7 +34,7 @@
 
 .container-cards__card:hover {
     box-shadow: 0 0 15px 5px #ff000094; 
-    transform: scale(1.2);
+    transform: scale(1.1);
  }
 
 .card__titulo {
