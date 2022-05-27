@@ -137,4 +137,8 @@ body {
     .container-principal .titulo {
         font-size: 2em;
     }
+
+    .icones {
+        font-size: 1em;
+    }
 }
