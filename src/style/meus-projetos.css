@@ -35,5 +35,7 @@
 }
 
 @media screen and (max-width: 1279px) {
-    
+    .projetos .projeto {
+        flex-direction: column;
+    }
 }
