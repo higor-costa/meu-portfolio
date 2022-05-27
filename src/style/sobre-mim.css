@@ -28,5 +28,7 @@
 }
 
 @media screen and (max-width: 1279px) {
-    
+    .container__ParagrafoButton .botao {
+        margin-top: 50px;
+    }
 }
