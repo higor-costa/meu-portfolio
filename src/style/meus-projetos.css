@@ -38,4 +38,8 @@
     .projetos .projeto {
         flex-direction: column;
     }
+    
+    .projetos .projeto:last-child {
+        flex-direction: column-reverse;
+    }
 }
