@@ -141,4 +141,8 @@ body {
     .icones {
         font-size: 1em;
     }
+
+    .container-principal__foto {
+        margin-left: 5rem;
+    }
 }
