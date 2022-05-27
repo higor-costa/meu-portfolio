@@ -44,4 +44,8 @@
     .modal .projetos .projeto:last-child {
         flex-direction: column;
     }
+
+    .modal .botoes {
+        justify-content: space-evenly;
+    }
 }
