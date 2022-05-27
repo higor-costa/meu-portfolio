@@ -41,6 +41,7 @@
     
     .projetos .projeto:last-child {
         flex-direction: column-reverse;
+        margin-bottom: 0;
     }
 }
 
