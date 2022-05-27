@@ -133,4 +133,8 @@ body {
         margin-top: 80px;
 	    justify-content: space-evenly;
     }
+
+    .titulo {
+        font-size: 2em;
+    }
 }
