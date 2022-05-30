@@ -167,4 +167,10 @@ body {
         height: 100%;
         margin-top: auto;
     }
+
+    .container-principal .titulo {
+        font-size: 1.8em;
+        line-height: 30px;
+    }
+
 }
