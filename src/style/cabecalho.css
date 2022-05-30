@@ -156,4 +156,10 @@ body {
     .header .nav {
         display: none;
     }
+
+    .header .container-principal {
+        flex-direction: column-reverse;
+        position: relative;
+        margin-top: 20px;
+    }
 }
