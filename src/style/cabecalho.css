@@ -148,5 +148,8 @@ body {
 }
 
 @media screen and (max-width: 480px) and (min-width: 320px) {
-    
+    .header {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
 }
