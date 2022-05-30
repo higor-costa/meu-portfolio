@@ -185,4 +185,7 @@ body {
     .container-principal .icones i {
         margin-bottom: 10px;
     }
+
+    .container-principal__foto {
+        width: 40%;
 }
