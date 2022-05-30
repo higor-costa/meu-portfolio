@@ -181,4 +181,8 @@ body {
         left: 19rem;
         bottom: 5rem;
     }
+
+    .container-principal .icones i {
+        margin-bottom: 10px;
+    }
 }
