@@ -162,4 +162,9 @@ body {
         position: relative;
         margin-top: 20px;
     }
+
+    .container-principal .TituloIcones {
+        height: 100%;
+        margin-top: auto;
+    }
 }
