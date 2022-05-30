@@ -175,5 +175,7 @@ body {
 
     .container-principal .icones {
         font-size: 1.8rem;
+        display: flex;
+        flex-direction: column;
     }
 }
