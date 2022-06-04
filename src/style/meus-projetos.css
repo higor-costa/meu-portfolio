@@ -67,4 +67,8 @@
     .meus-projetos {
         padding: 0 1rem;
     }
+
+    .meus-projetos .projeto:first-child {
+        margin-bottom: 50px;
+    }
 }
