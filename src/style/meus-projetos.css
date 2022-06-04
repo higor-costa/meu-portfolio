@@ -71,4 +71,9 @@
     .meus-projetos .projeto:first-child {
         margin-bottom: 50px;
     }
+
+    .projeto__imagem {
+        width: 90%;
+        height: 10rem;
+    }
 }
