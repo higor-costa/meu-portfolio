@@ -55,8 +55,6 @@
     color: var(--hover);
 }
 
-@media screen and (max-width: 1279px) {
-    .botao {
-        margin-top: 0;
-    }
+@media screen and (max-width: 1279px) and (min-width: 769px) {
+    
 }
