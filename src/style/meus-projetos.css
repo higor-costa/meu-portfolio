@@ -85,4 +85,8 @@
         font-size: .9rem;
         margin: 5px 0 10px;
     }
+
+    .projeto__paragrafo {
+        font-size: .8rem;
+    }
 }
