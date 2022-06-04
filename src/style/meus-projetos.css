@@ -76,4 +76,8 @@
         width: 90%;
         height: 10rem;
     }
+
+    .projeto__texto {
+        height: auto;
+    }
 }
