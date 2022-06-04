@@ -83,5 +83,6 @@
 
     .projeto__titulo {
         font-size: .9rem;
+        margin: 5px 0 10px;
     }
 }
