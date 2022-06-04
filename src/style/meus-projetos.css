@@ -80,4 +80,8 @@
     .projeto__texto {
         height: auto;
     }
+
+    .projeto__titulo {
+        font-size: .9rem;
+    }
 }
