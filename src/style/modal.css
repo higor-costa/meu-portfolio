@@ -65,4 +65,8 @@
     .modal .projeto .botoes {
         width: auto;
     }
+
+    .modal .seta {
+        margin-bottom: 20px;
+    }
 }
