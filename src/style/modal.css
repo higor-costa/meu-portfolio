@@ -56,4 +56,8 @@
         font-size: 1.3em;
         font-weight: bolder;
     }
+
+    .modal .botao {
+        font-size: .8rem;
+    }
 }
