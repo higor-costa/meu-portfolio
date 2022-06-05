@@ -52,5 +52,7 @@
 }
 
 @media screen and (max-width: 480px) {
-    
+    .modal .secao__titulo {
+        font-size: 1.3em;
+    }
 }
