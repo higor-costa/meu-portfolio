@@ -43,6 +43,7 @@
 @media screen and (max-width: 1279px) {
     .modal .projetos .projeto:last-child {
         flex-direction: column;
+        margin-bottom: 30px;
     }
 
     .modal .botoes {
