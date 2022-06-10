@@ -160,6 +160,7 @@ body {
 
     .header .nav {
         width: 0;
+        height: 150px;
     }   
 
     .header .container-principal {
