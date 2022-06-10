@@ -154,6 +154,7 @@ body {
 
     .header .container-topo .abrir-menu {
         display: block;
+        font-size: 1.5rem;
     }
 
     .header .nav {
