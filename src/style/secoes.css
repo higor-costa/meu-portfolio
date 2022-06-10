@@ -30,8 +30,7 @@
 }
 
 .botao {
-    background-color: var(--branco);
-    color: var(--preto);
+    background-color: var(--hover);
     font-family: var(--font-courier);
     font-weight: 600;
     padding: 10px 20px;
