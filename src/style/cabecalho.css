@@ -172,6 +172,10 @@ body {
         border-radius: 0% 0% 0% 80%;
     }
 
+    .header .nav i {
+        color: var(--background-pagina);
+    }
+
     .header .container-principal {
         flex-direction: column-reverse;
         position: relative;
