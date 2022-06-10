@@ -166,6 +166,7 @@ body {
         top: 0;
         z-index: 1;
         background-color: var(--branco);
+        transition: .9s;
     }   
 
     .header .container-principal {
