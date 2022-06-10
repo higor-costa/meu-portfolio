@@ -182,6 +182,9 @@ body {
 
     .header .nav ul {
         height: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
     }
 
     .header .container-principal {
