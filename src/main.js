@@ -21,3 +21,11 @@ function openMenu() {
     document.querySelector(".nav").style.width = "250px";
     document.querySelector('.abrir-menu').style.display = 'none';
 }
+
+const fecharMenu  = document.querySelector('.fechar-menu')
+fecharMenu.addEventListener("click", closeMenu)
+
+function closeMenu() {
+    let nav = document.querySelector(".nav").style.width = "0px";
+    let menuHamburguer = document.querySelector('.abrir-menu').style.display = 'block'; 
+}
