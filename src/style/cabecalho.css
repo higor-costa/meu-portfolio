@@ -189,6 +189,7 @@ body {
 
     .header .nav .nav__ancora {
         color: var(--hover);
+        font-weight: 700;
     }
 
     .header .container-principal {
