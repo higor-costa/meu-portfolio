@@ -42,8 +42,7 @@
 }
 
 .botao:hover {
-    background-color: var(--hover);
-    color: var(--branco);
+    background-color: var(--branco);
 }
 
 .seta {
