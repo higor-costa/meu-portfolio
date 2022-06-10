@@ -152,6 +152,10 @@ body {
         padding-right: 1rem;
     }
 
+    .header .container-topo .abrir-menu {
+        display: block;
+    }
+
     .header .nav {
         display: none;
     }
