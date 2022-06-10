@@ -32,6 +32,7 @@
 .modal__topo .botao {
     cursor: pointer;
     margin: 0;
+    background-color: var(--branco);
 }
 
 .modal .botoes {
