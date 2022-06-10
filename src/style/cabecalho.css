@@ -168,6 +168,7 @@ body {
         background-color: var(--branco);
         transition: .9s;
         padding-top: 60px;
+        overflow-x: hidden;
     }   
 
     .header .container-principal {
