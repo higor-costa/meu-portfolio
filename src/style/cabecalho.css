@@ -58,6 +58,7 @@ body {
     font-family: var(--font-courier);
     text-transform: uppercase;
     position: relative;
+    padding: 5px;
 }
 
 .nav__itens .nav__ancora::after {
