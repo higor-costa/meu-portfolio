@@ -61,9 +61,7 @@ body {
     padding: 5px;
 }
 
-.nav__itens .nav__ancora::after {
-    content: '';
-    position: absolute;
+.nav__itens .nav__ancora:hover {
     background: var(--hover);
     height: 3px;
     width: 0;
