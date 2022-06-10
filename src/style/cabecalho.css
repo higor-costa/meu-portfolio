@@ -187,6 +187,10 @@ body {
         justify-content: space-around;
     }
 
+    .header .nav .nav__ancora {
+        color: var(--hover);
+    }
+
     .header .container-principal {
         flex-direction: column-reverse;
         position: relative;
