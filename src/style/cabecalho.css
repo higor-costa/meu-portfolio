@@ -159,8 +159,8 @@ body {
     }
 
     .header .nav {
-        display: none;
-    }
+        width: 0;
+    }   
 
     .header .container-principal {
         flex-direction: column-reverse;
