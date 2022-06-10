@@ -99,7 +99,7 @@ body {
 }
 
 .icones i {
-    color: var(--branco);
+    color: var(--hover);
     margin-right: 20px;
     border-radius: 50%;
     border: 1px solid var(--branco);
