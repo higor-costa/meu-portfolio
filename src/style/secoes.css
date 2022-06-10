@@ -15,7 +15,10 @@
     margin-bottom: 50px;
 }
 
-.secao__titulo,
+.secao__titulo {
+    color: var(--hover);
+}
+
 .projeto__titulo,
 .paragrafos {
     color: var(--branco);
