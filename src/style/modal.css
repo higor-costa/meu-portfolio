@@ -36,6 +36,10 @@
     color: var(--preto);
 }
 
+.modal__topo .botao:hover {
+    background-color: var(--hover);
+}
+
 .modal .botoes {
     display: flex;
     justify-content: space-between;
