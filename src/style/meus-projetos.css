@@ -30,6 +30,12 @@
     width: 90%;
 }
 
+.botoes {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .meus-projetos__button {
     cursor: pointer;
 }
