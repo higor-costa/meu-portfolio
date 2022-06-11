@@ -24,11 +24,6 @@
     color: var(--branco);
 }
 
-.projeto__titulo,
-.paragrafos {
-    font-family: var(--font-poppins);
-}
-
 .botao {
     background-color: var(--hover);
     color: var(--branco);
