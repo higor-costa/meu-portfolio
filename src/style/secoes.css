@@ -21,6 +21,7 @@
 
 .projeto__titulo,
 .paragrafos {
+    font-family: var(--font-poppins);
     color: var(--branco);
 }
 
