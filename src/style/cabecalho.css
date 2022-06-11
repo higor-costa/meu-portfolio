@@ -188,6 +188,10 @@ body {
         justify-content: space-around;
     }
 
+    .header .nav ul li {
+        margin-bottom: 5px;
+    }
+
     .header .nav .nav__ancora {
         color: var(--preto); 
         font-weight: 700;
