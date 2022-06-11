@@ -56,7 +56,7 @@
 }
 
 .seta:hover {
-    color: var(--hover);
+    color: var(--branco);
 }
 
 @media screen and (max-width: 1279px) and (min-width: 769px) {
