@@ -52,6 +52,7 @@
     font-size: 2.5em;
     color: var(--hover);
     transition: .5s;
+    margin-bottom: 20px;
 }
 
 .seta:hover {
