@@ -35,6 +35,7 @@
     background-color: var(--branco);
     color: var(--preto);
     padding: 5px;
+    border-radius: 8px;
 }
 
 .modal__topo .botao:hover {
