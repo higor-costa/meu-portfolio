@@ -75,6 +75,10 @@
         margin-top: 20px;
     }
 
+    .botoes .botao:first-child {
+        margin-right: 30px;
+    }
+    
     .modal .projeto .botoes {
         width: auto;
     }
