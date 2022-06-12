@@ -175,6 +175,7 @@ body {
     }
 
     .nav .fechar-menu {
+        display: block;
         color: var(--background-pagina);
         position: absolute;
         top: 10px;
