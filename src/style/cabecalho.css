@@ -26,7 +26,7 @@ body {
     padding: 2em 5em;
 }
 
-.container-topo {
+.header .container-topo {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,24 +36,24 @@ body {
     width: 50px;
 }
 
-.container-topo > i {
+.container-topo .abrir-menu {
    display: none;
 }
 
-.nav {
+.container-topo .nav {
     width: 30rem;
 }
 
-.nav__lista-desordenada {
+.nav .nav__lista {
     display: flex;
     justify-content: space-evenly;
 }
 
-.nav__lista-desordenada .nav__itens {
+.nav__lista .item {
     list-style-type: none;
 }
 
-.nav__itens .nav__ancora {
+.item .nav__ancora {
     color: var(--branco);
     font-family: var(--font-courier);
     text-transform: uppercase;
@@ -62,7 +62,7 @@ body {
     transition: .8s;
 }
 
-.nav__itens .nav__ancora:hover {
+.item .nav__ancora:hover {
     background: var(--hover);
     border-radius: 8px;
 }
@@ -93,7 +93,7 @@ body {
     color: var(--hover);
 }
 
-.icones {
+.TituloIcones .icones {
     text-align: center;
     color: var(--branco);
     font-size: 1.5em;
@@ -135,11 +135,11 @@ body {
 	    justify-content: space-evenly;
     }
 
-    .container-principal .titulo {
+    .TituloIcones .titulo {
         font-size: 2em;
     }
 
-    .icones {
+    .TituloIcones .icones {
         font-size: 1em;
     }
 
@@ -160,7 +160,7 @@ body {
         color: var(--hover);
     }
 
-    .header .nav {
+    .container-topo .nav {
         width: 0;
         height: 150px;
         position: fixed;
@@ -174,7 +174,7 @@ body {
         border-radius: 0% 0% 0% 80%;
     }
 
-    .header .nav i {
+    .nav .fechar-menu {
         color: var(--background-pagina);
         position: absolute;
         top: 10px;
@@ -182,23 +182,23 @@ body {
         font-size: 1.5rem;
     }
 
-    .header .nav ul {
+    .nav .nav__lista {
         height: 0;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
     }
 
-    .header .nav ul li {
+    .nav__lista .item {
         margin-bottom: 5px;
     }
 
-    .header .nav .nav__ancora {
+    .nav__lista .nav__ancora {
         color: var(--preto); 
         font-weight: 700;
     }
 
-    .header .container-principal {
+    .container-principal {
         flex-direction: column-reverse;
         position: relative;
         margin-top: 20px;
@@ -209,12 +209,12 @@ body {
         margin-top: auto;
     }
 
-    .container-principal .titulo {
+    .TituloIcones .titulo {
         font-size: 1.8em;
         line-height: 30px;
     }
 
-    .container-principal .icones {
+    .TituloIcones .icones {
         font-size: 1rem;
         display: flex;
         flex-direction: column;
@@ -223,7 +223,7 @@ body {
         bottom: 5rem;
     }
 
-    .container-principal .icones i {
+    .icones i {
         margin-bottom: 10px;
     }
 
