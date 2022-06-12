@@ -44,6 +44,10 @@ body {
     width: 30rem;
 }
 
+.nav .fechar-menu {
+    display: none;
+}
+
 .nav .nav__lista {
     display: flex;
     justify-content: space-evenly;
