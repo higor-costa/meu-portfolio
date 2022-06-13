@@ -25,7 +25,7 @@
     justify-content: space-evenly;
 }
 
-.projeto__paragrafo {
+.projeto__descrição {
     text-align: justify;
     width: 90%;
 }
@@ -92,7 +92,7 @@
         margin: 5px 0 10px;
     }
 
-    .projeto__paragrafo {
+    .projeto__descrição {
         font-size: .8rem;
     }
 }
