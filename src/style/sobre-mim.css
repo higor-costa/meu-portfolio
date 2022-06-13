@@ -24,7 +24,6 @@
 
 .container__paragrafo {
     text-align: justify;
-    font-family: var(--font-poppins);
 }
 
 @media screen and (max-width: 1279px) {
