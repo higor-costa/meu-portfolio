@@ -57,6 +57,10 @@ body {
     list-style-type: none;
 }
 
+.nav__lista .item:nth-child(2) {
+    border-right: 1px solid var(--hover);
+}
+
 .item .nav__ancora {
     color: var(--branco);
     font-family: var(--font-courier);
