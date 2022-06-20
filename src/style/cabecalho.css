@@ -204,6 +204,11 @@ body {
         margin-bottom: 5px;
     }
 
+    .nav__lista .item:nth-child(2) {
+        border-right: none;
+        border-left: none;
+    }
+
     .nav__lista .nav__ancora {
         color: var(--preto); 
         font-weight: 700;
@@ -240,7 +245,6 @@ body {
 
     .container-principal__foto {
         width: 40%;
-        margin-right: 0;
         margin-left: 0;
     }    
 }
