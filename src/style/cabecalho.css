@@ -135,7 +135,7 @@ body {
     }
 
     .container-principal__foto {
-        margin-left: 7rem;
+        margin-right: 7rem;
     }
 }
 
@@ -202,11 +202,6 @@ body {
 
     .nav__lista .item {
         margin-bottom: 5px;
-    }
-
-    .nav__lista .item:nth-child(2) {
-        border-right: none;
-        border-left: none;
     }
 
     .nav__lista .nav__ancora {
