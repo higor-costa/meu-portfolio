@@ -80,6 +80,8 @@ body {
 .container-principal {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding-top: 3rem;
 }
 
 .container-principal .TituloIcones {
@@ -135,7 +137,7 @@ body {
     }
 
     .container-principal__foto {
-        margin-right: 7rem;
+        margin-left: 7rem;
     }
 }
 
