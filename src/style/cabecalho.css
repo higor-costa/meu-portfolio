@@ -236,7 +236,7 @@ body {
     }
 
     .TituloIcones .icones {
-        font-size: 1rem;
+        font-size: 1.3rem;
         display: flex;
         flex-direction: column;
         position: absolute;
