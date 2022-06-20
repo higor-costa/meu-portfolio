@@ -60,6 +60,7 @@ body {
 .nav__lista .item:nth-child(2) {
     border-right: 1px solid var(--hover);
     border-left: 1px solid var(--hover);
+    padding: 0 20px;
 }
 
 .item .nav__ancora {
