@@ -73,15 +73,14 @@ body {
 }
 
 .item .nav__ancora:hover {
-    background: var(--hover);
-    border-radius: 8px;
+    color: var(--hover);
+    font-size: 1.1em;
+    letter-spacing: 1px;
 }
 
 .container-principal {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding-top: 3rem;
 }
 
 .container-principal .TituloIcones {
