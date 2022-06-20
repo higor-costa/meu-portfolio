@@ -239,6 +239,8 @@ body {
     }
 
     .container-principal__foto {
-        width: 60%;
+        width: 40%;
+        margin-right: 0;
+        margin-left: 0;
     }    
 }
