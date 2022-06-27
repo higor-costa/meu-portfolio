@@ -41,7 +41,7 @@
     font-family: var(--font-russo);
     font-size: .8em;
     text-transform: uppercase;
-    color: var(--background-pagina);
+    color: var(--branco);
 }
 
 .habilidade .fa-brands {
