@@ -37,7 +37,7 @@
     transform: scale(1.1);
  }
 
-.card__titulo {
+.habilidade__nome {
     font-family: var(--font-russo);
     font-size: .8em;
     text-transform: uppercase;
