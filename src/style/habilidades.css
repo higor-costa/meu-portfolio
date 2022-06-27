@@ -29,7 +29,7 @@
     height: 16em;
     background: white;
     border-radius: 10px;
-    transition: transform 1s;
+    transition: box-shadow, border-color 1s;
 }
 
 .container-cards__card:hover {
