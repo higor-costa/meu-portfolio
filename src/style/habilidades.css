@@ -35,7 +35,7 @@
     transition: box-shadow, border-color 1s;
 }
 
-.container-cards__card:hover {
+.habilidade:hover {
     box-shadow: 0 0 15px 1px #ff000094;
     border-color: var(--hover);
 }
