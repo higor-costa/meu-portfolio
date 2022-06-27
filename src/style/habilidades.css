@@ -13,10 +13,15 @@
     align-items: center;
 }
 
-.container-cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.container-habilidades {
+    display: grid;
+    grid-template-columns: repeat(3, 8rem);
+    grid-template-rows: repeat(2, 7rem);
+    gap: 20px;
+    grid-template-areas: 
+    'html css git'
+    'js github git';
+    
 }
 
 .container-habilidades .html { grid-area: html;}
