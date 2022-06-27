@@ -36,7 +36,7 @@
 }
 
 .container-cards__card:hover {
-    box-shadow: 0 0 15px 5px #ff000094; 
+    box-shadow: 0 0 15px 1px #ff000094;
     border-color: var(--hover);
 }
 
