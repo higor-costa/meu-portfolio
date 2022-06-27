@@ -25,6 +25,7 @@
     align-items: center;
     padding: 15px;
     border-radius: 10px;
+    border: 1px solid var(--branco);
     transition: box-shadow, border-color 1s;
 }
 
