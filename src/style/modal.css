@@ -69,6 +69,7 @@
 
     .modal__topo .botao {
         width: 5rem;
+        padding: 6px;
     }
 
     .botoes .botao {
