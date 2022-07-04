@@ -28,6 +28,7 @@ const fecharMenu  = document.querySelector('.fechar-menu')
 fecharMenu.addEventListener("click", closeMenu)
 
 function closeMenu() {
+    document.querySelector('.nav__lista').style.opacity = '0'
     document.querySelector(".nav").style.width = "0px";
     document.querySelector('.abrir-menu').style.display = 'block'; 
 }
