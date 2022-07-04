@@ -63,6 +63,11 @@ body {
     padding: 0 20px;
 }
 
+.nav__lista .item:nth-child(3) {
+    border-right: 1px solid var(--hover);
+    padding-right: 20px;
+}
+
 .item .nav__ancora {
     color: var(--branco);
     font-family: var(--font-courier);
