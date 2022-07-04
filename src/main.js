@@ -20,6 +20,7 @@ const abrirMenu = document.querySelector('.abrir-menu')
 abrirMenu.addEventListener("click", openMenu)
 
 function openMenu() {
+    document.querySelector('.nav__lista').style.opacity = '1'
     document.querySelector(".nav").style.width = "250px";
     document.querySelector('.abrir-menu').style.display = 'none';
 }
