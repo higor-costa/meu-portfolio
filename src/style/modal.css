@@ -36,6 +36,7 @@
     color: var(--preto);
     border-radius: 20px;
     width: 7rem;
+    text-align: center;
 }
 
 .modal__topo .botao:hover {
