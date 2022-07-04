@@ -1,3 +1,5 @@
+'use strict'
+
 const openModal = document.querySelector('.meus-projetos__button');
 openModal.addEventListener('click', open);
 
