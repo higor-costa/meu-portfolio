@@ -4,16 +4,16 @@ const openModal = document.querySelector('.meus-projetos__button');
 openModal.addEventListener('click', open);
 
 function open() {
-   let modal = document.querySelector('.modal').style.display = "block";
-   let body = document.body.style.overflow = "hidden";
+   document.querySelector('.modal').style.display = "block";
+   document.body.style.overflow = "hidden";
 }
 
 const closeModal = document.querySelector('.modal__topo .botao');
 closeModal.addEventListener('click', close);
 
 function close() {
-    let modal = document.querySelector('.modal').style.display = "none";
-    let body = document.body.style.overflow = "visible";
+    document.querySelector('.modal').style.display = "none";
+    document.body.style.overflow = "visible";
 }
 
 const abrirMenu = document.querySelector('.abrir-menu')
@@ -28,6 +28,6 @@ const fecharMenu  = document.querySelector('.fechar-menu')
 fecharMenu.addEventListener("click", closeMenu)
 
 function closeMenu() {
-    let nav = document.querySelector(".nav").style.width = "0px";
-    let menuHamburguer = document.querySelector('.abrir-menu').style.display = 'block'; 
+    document.querySelector(".nav").style.width = "0px";
+    document.querySelector('.abrir-menu').style.display = 'block'; 
 }
