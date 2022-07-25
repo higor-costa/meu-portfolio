@@ -135,6 +135,7 @@ body {
 
 .container-principal__foto {
     width: 15%;
+    border-radius: 50%;
     margin-right: 10rem;
 }
 
