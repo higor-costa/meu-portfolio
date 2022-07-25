@@ -86,6 +86,7 @@ body {
 
 .container-principal {
     display: flex;
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: space-between;
     padding-top: 3rem;
