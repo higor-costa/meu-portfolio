@@ -79,6 +79,10 @@ body {
     padding-right: 20px;
 }
 
+.nav__lista .item .botao {
+    background-color: transparent;
+}
+
 .item .nav__ancora {
     color: var(--branco);
     font-family: var(--font-courier);
