@@ -15,20 +15,22 @@
 
 .container-habilidades {
     display: grid;
-    grid-template-columns: repeat(3, 8rem);
-    grid-template-rows: repeat(2, 7rem);
+    grid-template-columns: repeat(4, 8rem);
+    grid-template-rows: repeat(3, 7rem);
     gap: 20px;
     grid-template-areas: 
-    'html css git'
-    'js github git';
+    'html html css git'
+    'html html bootstrap bootstrap'
+    'js github bootstrap bootstrap';
     
 }
 
-.container-habilidades .html { grid-area: html;}
+.container-habilidades .html { grid-area: html;  justify-content: center;}
 .container-habilidades .css { grid-area: css;}
 .container-habilidades .js { grid-area: js;}
 .container-habilidades .github { grid-area: github;}
-.container-habilidades .git { grid-area: git; justify-content: center;}
+.container-habilidades .git { grid-area: git;}
+.container-habilidades .bootstrap { grid-area: bootstrap; justify-content: center;}
 
 .habilidade {
     display: flex;
@@ -74,6 +76,15 @@
     color: #f03c2e;
 }
 
+.habilidade .fa-bootstrap {
+    color: #7633FA;
+}
+
+.habilidade .fa-html5, 
+.habilidade .fa-bootstrap {
+    font-size: 6rem;
+}
+
 @media screen and (max-width: 767px) {
     .container-habilidades {
         grid-template-columns: repeat(2, 8rem);
@@ -81,11 +92,16 @@
         grid-template-areas: 
         'html css'
         'js github'
-        'git git';
+        'git bootstrap';
     }
 
-    .container-habilidades .git { 
+    .container-habilidades .html, 
+    .container-habilidades .bootstrap  { 
         justify-content: flex-start;
+    }
+
+    .habilidade .fa-html5, .habilidade .fa-bootstrap {
+        font-size: 4rem;
     }
 }
 
