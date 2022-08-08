@@ -85,7 +85,8 @@
         'git bootstrap';
     }
 
-    .container-habilidades .git { 
+    .container-habilidades .html, 
+    .container-habilidades .bootstrap  { 
         justify-content: flex-start;
     }
 }
