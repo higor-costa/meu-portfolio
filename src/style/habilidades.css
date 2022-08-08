@@ -30,6 +30,7 @@
 .container-habilidades .js { grid-area: js;}
 .container-habilidades .github { grid-area: github;}
 .container-habilidades .git { grid-area: git;}
+.container-habilidades .bootstrap { grid-area: bootstrap; justify-content: center;}
 
 .habilidade {
     display: flex;
