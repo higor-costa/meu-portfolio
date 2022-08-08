@@ -37,5 +37,9 @@ function closeMenu() {
 }
 
 function menuOpcao() {
-    closeMenu()
+    const larguraDispositivo = window.screen.width
+    
+    if(larguraDispositivo <= 480) {
+        closeMenu()
+    }
 }
