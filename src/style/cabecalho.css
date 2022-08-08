@@ -102,8 +102,6 @@ body {
 
 .item .nav__ancora:hover {
     color: var(--hover);
-    font-size: 1.1em;
-    letter-spacing: 1px;
 }
 
 .container-principal {
