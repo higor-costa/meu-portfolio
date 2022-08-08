@@ -242,6 +242,10 @@ body {
         padding: 0;
     }
 
+    .nav__lista .item .botao {
+        color: var(--preto);
+    }
+
     .nav__lista .nav__ancora {
         color: var(--preto); 
         font-weight: 700;
