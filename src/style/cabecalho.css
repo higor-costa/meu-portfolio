@@ -161,10 +161,6 @@ body {
     .container-principal .titulo {
         font-size: 2em;
     }
-
-    .container-principal__foto {
-        margin-right: 7rem;
-    }
 }
 
 @media screen and (max-width: 768px) and (min-width: 481px) {
