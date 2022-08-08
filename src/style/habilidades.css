@@ -29,7 +29,7 @@
 .container-habilidades .css { grid-area: css;}
 .container-habilidades .js { grid-area: js;}
 .container-habilidades .github { grid-area: github;}
-.container-habilidades .git { grid-area: git; justify-content: center;}
+.container-habilidades .git { grid-area: git;}
 
 .habilidade {
     display: flex;
