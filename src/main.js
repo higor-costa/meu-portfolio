@@ -34,5 +34,4 @@ function closeMenu() {
     document.querySelector(".nav").style.width = "0px";
     document.querySelector('.abrir-menu').style.display = 'block'; 
     document.querySelector('.modal').style.display = 'none';
-    let menuHamburguer = document.querySelector('.abrir-menu').style.display = 'block'; 
 }
