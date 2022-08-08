@@ -164,7 +164,9 @@ body {
 }
 
 @media screen and (max-width: 1279px) and (min-width: 769px) {
-
+    .container-principal__foto {
+        width: 20%;
+    }
 }
 
 @media screen and (max-width: 768px) and (min-width: 481px) {
