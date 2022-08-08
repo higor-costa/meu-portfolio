@@ -87,6 +87,7 @@ body {
 
 .nav__lista .item .botao:hover {
     background-color: var(--hover);
+    color: var(--branco);
 }
 
 .item .nav__ancora {
