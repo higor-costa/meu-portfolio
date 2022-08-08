@@ -25,7 +25,7 @@
     
 }
 
-.container-habilidades .html { grid-area: html;}
+.container-habilidades .html { grid-area: html;  justify-content: center;}
 .container-habilidades .css { grid-area: css;}
 .container-habilidades .js { grid-area: js;}
 .container-habilidades .github { grid-area: github;}
