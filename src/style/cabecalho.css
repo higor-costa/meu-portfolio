@@ -28,6 +28,7 @@ body {
 
 .header .modal {
     display: none;
+    position: fixed;
 }
 
 .header .container-topo {
