@@ -35,3 +35,7 @@ function closeMenu() {
     document.querySelector('.abrir-menu').style.display = 'block'; 
     document.querySelector('.header__modal').style.display = 'none';
 }
+
+function menuOpcao() {
+    closeMenu()
+}
