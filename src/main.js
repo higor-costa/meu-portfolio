@@ -27,6 +27,7 @@ const fecharMenu  = document.querySelector('.fechar-menu')
 fecharMenu.addEventListener("click", closeMenu)
 
 function closeMenu() {
+    document.querySelector('.modal').style.display = 'none';
     let nav = document.querySelector(".nav").style.width = "0px";
     let menuHamburguer = document.querySelector('.abrir-menu').style.display = 'block'; 
 }
