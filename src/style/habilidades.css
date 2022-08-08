@@ -19,8 +19,9 @@
     grid-template-rows: repeat(3, 7rem);
     gap: 20px;
     grid-template-areas: 
-    'html css git'
-    'js github git';
+    'html html css git'
+    'html html bootstrap bootstrap'
+    'js github bootstrap bootstrap';
     
 }
 
