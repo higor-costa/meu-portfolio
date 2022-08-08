@@ -26,6 +26,10 @@ body {
     padding: 2em 5em;
 }
 
+.header .modal {
+    display: none;
+}
+
 .header .container-topo {
     display: flex;
     justify-content: space-between;
@@ -176,16 +180,16 @@ body {
 
     .container-topo .nav {
         width: 0;
-        height: 150px;
+        height: 100vh;
         position: fixed;
         right: 0;
         top: 0;
-        z-index: 1;
+        z-index: 2;
         background-color: var(--branco);
         transition: .9s;
         padding-top: 60px;
         overflow-x: hidden;
-        border-radius: 0% 0% 0% 80%;
+        /* border-radius: 0% 0% 0% 80%; */
     }
 
     .nav .fechar-menu {
