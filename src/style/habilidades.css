@@ -89,6 +89,10 @@
     .container-habilidades .bootstrap  { 
         justify-content: flex-start;
     }
+
+    .habilidade .fa-html5, .habilidade .fa-bootstrap {
+        font-size: 4rem;
+    }
 }
 
 @media screen and (max-width: 480px) and (min-width: 375px) {
