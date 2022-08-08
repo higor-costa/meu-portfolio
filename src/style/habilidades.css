@@ -79,6 +79,11 @@
     color: #7633FA;
 }
 
+.habilidade .fa-html5, 
+.habilidade .fa-bootstrap {
+    font-size: 6rem;
+}
+
 @media screen and (max-width: 767px) {
     .container-habilidades {
         grid-template-columns: repeat(2, 8rem);
