@@ -82,7 +82,7 @@
         grid-template-areas: 
         'html css'
         'js github'
-        'git git';
+        'git bootstrap';
     }
 
     .container-habilidades .git { 
