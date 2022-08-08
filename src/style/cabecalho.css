@@ -82,6 +82,7 @@ body {
 .nav__lista .item .botao {
     background-color: transparent;
     border-radius: 10px;
+    border: 1px solid var(--hover);
 }
 
 .item .nav__ancora {
