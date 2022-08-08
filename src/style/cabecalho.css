@@ -85,6 +85,10 @@ body {
     border: 1px solid var(--hover);
 }
 
+.nav__lista .item .botao:hover {
+    background-color: var(--hover);
+}
+
 .item .nav__ancora {
     color: var(--branco);
     font-family: var(--font-courier);
