@@ -75,6 +75,10 @@
     color: #f03c2e;
 }
 
+.habilidade .fa-bootstrap {
+    color: #7633FA;
+}
+
 @media screen and (max-width: 767px) {
     .container-habilidades {
         grid-template-columns: repeat(2, 8rem);
