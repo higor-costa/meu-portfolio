@@ -21,6 +21,7 @@ abrirMenu.addEventListener("click", openMenu)
 
 function openMenu() {
     document.querySelector('.nav__lista').style.opacity = '1'
+    document.querySelector('.modal').style.display = 'block';
     document.querySelector(".nav").style.width = "250px";
     document.querySelector('.abrir-menu').style.display = 'none';
 }
@@ -32,4 +33,7 @@ function closeMenu() {
     document.querySelector('.nav__lista').style.opacity = '0'
     document.querySelector(".nav").style.width = "0px";
     document.querySelector('.abrir-menu').style.display = 'block'; 
+    document.querySelector('.modal').style.display = 'none';
+    let nav = document.querySelector(".nav").style.width = "0px";
+    let menuHamburguer = document.querySelector('.abrir-menu').style.display = 'block'; 
 }
