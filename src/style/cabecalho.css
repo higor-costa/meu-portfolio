@@ -108,7 +108,7 @@ body {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    padding-top: 3rem;
+    margin-top: 5rem;
 }
 
 .container-principal .TituloIcones {
