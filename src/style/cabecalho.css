@@ -257,7 +257,6 @@ body {
     }
 
     .container-principal {
-        flex-direction: column-reverse;
         position: relative;
         margin-top: 20px;
     }
