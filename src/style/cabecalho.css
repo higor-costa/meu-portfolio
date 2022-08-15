@@ -153,7 +153,7 @@ body {
 }
 
 .container-principal__foto {
-    width: 15%;
+    border: 1px solid var(--hover);
     border-radius: 50%;
 }
 
