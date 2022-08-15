@@ -136,6 +136,7 @@ body {
     color: var(--branco);
     font-size: 1.5em;
     cursor: pointer;
+    gap: 20px;
 }
 
 .icones i {
