@@ -132,7 +132,8 @@ body {
 }
 
 .TituloIcones .icones {
-    text-align: center;
+    display: flex;
+    justify-content: center;
     color: var(--branco);
     font-size: 1.5em;
     cursor: pointer;
