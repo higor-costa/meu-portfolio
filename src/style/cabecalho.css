@@ -274,10 +274,7 @@ body {
     .TituloIcones .icones {
         font-size: 1.3rem;
         display: flex;
-        flex-direction: column;
-        position: absolute;
-        left: 20rem;
-        bottom: 5rem;
+        justify-content: center;
     }
 
     .icones i {
