@@ -249,7 +249,8 @@ body {
     }
 
     .nav__lista .item .botao {
-        color: var(--preto);
+        color: var(--branco);
+        background-color: var(--hover);
     }
 
     .nav__lista .nav__ancora {
