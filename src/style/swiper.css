@@ -20,3 +20,7 @@
 .swiper-button-next, .swiper-button-prev {
     color: var(--hover) !important;
 }
+
+.swiper-pagination-bullet-active {
+    background: var(--hover) !important;
+}
