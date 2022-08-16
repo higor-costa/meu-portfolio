@@ -5,4 +5,5 @@
 
 .projetos .projeto {
     height: 100%;
+    display: flex;
 }
