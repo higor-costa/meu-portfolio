@@ -33,4 +33,5 @@
     text-align: center;
     color: white;
     padding: 5px 0;
+    background-color: var(--hover);
 }
