@@ -24,3 +24,7 @@
 .swiper-pagination-bullet-active {
     background: var(--hover) !important;
 }
+
+.swiper-pagination-bullet {
+    background: var(--hover) !important;
+}
