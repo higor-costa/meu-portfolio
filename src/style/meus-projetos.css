@@ -15,4 +15,5 @@
     width: 100%;
     height: 60%;
     border: 3px solid var(--hover);
+    border-radius: 10px 10px 0 0;
 }
