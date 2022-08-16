@@ -17,3 +17,7 @@
     border: 3px solid var(--hover);
     border-radius: 10px 10px 0 0;
 }
+
+.projeto .projeto__botoes {
+    width: 100%;
+}
