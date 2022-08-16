@@ -253,6 +253,11 @@ body {
         background-color: var(--hover);
     }
 
+    .nav__lista .item .botao:hover {
+        background-color: var(--branco);
+        color: var(--hover);
+    }
+
     .nav__lista .nav__ancora {
         color: var(--preto); 
         font-weight: 700;
