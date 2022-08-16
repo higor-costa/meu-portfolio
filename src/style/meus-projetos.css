@@ -40,3 +40,7 @@
 .projeto__botoes .projeto__btn:hover{
     background-color: var(--background-pagina);
 }
+
+.projeto__botoes .projeto__btn:first-child {
+    border-right: 1px solid black;
+}
