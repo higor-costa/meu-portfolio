@@ -20,4 +20,5 @@
 
 .projeto .projeto__botoes {
     width: 100%;
+    display: flex;
 }
