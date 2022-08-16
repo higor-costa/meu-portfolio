@@ -10,3 +10,7 @@
     align-items: center;
     justify-content: center;
 }
+
+.projeto img {
+    width: 100%;
+}
