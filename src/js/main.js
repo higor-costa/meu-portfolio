@@ -1,21 +1,5 @@
 'use strict'
 
-const openModal = document.querySelector('.meus-projetos__button');
-openModal.addEventListener('click', open);
-
-function open() {
-   document.querySelector('.modal').style.display = "block";
-   document.body.style.overflow = "hidden";
-}
-
-const closeModal = document.querySelector('.modal__topo .botao');
-closeModal.addEventListener('click', close);
-
-function close() {
-    document.querySelector('.modal').style.display = "none";
-    document.body.style.overflow = "visible";
-}
-
 const abrirMenu = document.querySelector('.abrir-menu')
 abrirMenu.addEventListener("click", openMenu)
 
