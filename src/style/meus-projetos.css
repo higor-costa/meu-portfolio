@@ -36,3 +36,7 @@
     background-color: var(--hover);
     transition: .5s;
 }
+
+.projeto__botoes .projeto__btn:hover{
+    background-color: var(--background-pagina);
+}
