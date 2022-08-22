@@ -195,11 +195,6 @@ body {
 }
 
 @media screen and (max-width: 480px) {
-    .header {
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
-
     .header .container-topo .abrir-menu {
         display: block;
         font-size: 1.5rem;
