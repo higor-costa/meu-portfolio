@@ -30,5 +30,5 @@ function menuOpcao() {
 
 const btnHome = document.querySelector(".item")
     .addEventListener("click", () => {
-        
+        window.scrollTo(0, 0);
     })
