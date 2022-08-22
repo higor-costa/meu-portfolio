@@ -131,15 +131,6 @@ body {
     color: var(--hover);
 }
 
-.TituloIcones .icones {
-    display: flex;
-    justify-content: center;
-    color: var(--branco);
-    font-size: 1.5em;
-    cursor: pointer;
-    gap: 20px;
-}
-
 .icones i {
     color: var(--hover);
     border-radius: 50%;
