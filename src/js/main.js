@@ -8,6 +8,7 @@ function openMenu() {
     document.querySelector('.header__modal').style.display = 'block';
     document.querySelector(".nav").style.width = "250px";
     document.querySelector('.abrir-menu').style.display = 'none';
+    document.querySelector('.container-topo').style.position = 'sticky';
 }
 
 const fecharMenu  = document.querySelector('.fechar-menu')
@@ -18,6 +19,7 @@ function closeMenu() {
     document.querySelector(".nav").style.width = "0px";
     document.querySelector('.abrir-menu').style.display = 'block'; 
     document.querySelector('.header__modal').style.display = 'none';
+    document.querySelector('.container-topo').style.position = 'fixed';
 }
 
 function menuOpcao() {
