@@ -29,3 +29,6 @@ function menuOpcao() {
 }
 
 const btnHome = document.querySelector(".item")
+    .addEventListener("click", () => {
+        
+    })
