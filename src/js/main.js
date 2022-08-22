@@ -27,3 +27,5 @@ function menuOpcao() {
         closeMenu()
     }
 }
+
+const btnHome = document.querySelector(".item")
