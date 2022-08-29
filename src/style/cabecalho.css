@@ -12,14 +12,14 @@
     --font-poppins: 'Poppins', sans-serif;
     --font-courier: 'Courier Prime', monospace;
 
-    --background-pagina: #0f100f;
-    --branco: #ffffff;
+    --cor-principal: #0f100f;
+    --cor-secundaria: #ffffff;
     --preto: #000000;
-    --hover: #AB0000;
+    --detalhes: #AB0000;
 }
 
 body {
-    background-color: var(--background-pagina);
+    background-color: var(--cor-principal);
 }
 
 .header {
@@ -93,11 +93,11 @@ body {
 
 .nav__lista .item .botao:hover {
     background-color: var(--hover);
-    color: var(--branco);
+    color: var(--cor-secundaria);
 }
 
 .item .nav__ancora {
-    color: var(--branco);
+    color: var(--cor-secundaria);
     font-family: var(--font-courier);
     font-weight: 800;
     text-transform: uppercase;
@@ -110,29 +110,29 @@ body {
     color: var(--hover);
 }
 
-.container-principal {
+.container-cor-principal {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 8rem;
 }
 
-.container-principal .TituloIcones {
+.container-cor-principal .TituloIcones {
     height: 170px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
-.container-principal .titulo {
-    color: var(--branco);
+.container-cor-principal .titulo {
+    color: var(--cor-secundaria);
     font-family: var(--font-courier);
     font-size: 2.5em;
     font-weight: 100;
     line-height: 35px;
 }
 
-.container-principal .titulo span {
+.container-cor-principal .titulo span {
     font-size: 0.7em;
     color: var(--hover);
 }
@@ -140,7 +140,7 @@ body {
 .icones i {
     color: var(--hover);
     border-radius: 50%;
-    border: 1px solid var(--branco);
+    border: 1px solid var(--cor-secundaria);
     padding: 10px;
     transition: color .3s, border-color .3s;
 }
@@ -150,19 +150,19 @@ body {
     border-color: var(--hover);
 }
 
-.container-principal__foto {
+.container-cor-principal__foto {
     border: 1px solid var(--hover);
     border-radius: 50%;
 }
 
 @media screen and (max-width: 1279px) {
-    .container-principal .titulo {
+    .container-cor-principal .titulo {
         font-size: 2em;
     }
 }
 
 @media screen and (max-width: 1279px) and (min-width: 769px) {
-    .container-principal__foto {
+    .container-cor-principal__foto {
         width: 20%;
     }
 }
@@ -173,11 +173,11 @@ body {
         padding-right: 2rem;
     }
 
-    .container-principal .TituloIcones {
+    .container-cor-principal .TituloIcones {
 	    justify-content: space-evenly;
     }
 
-    .container-principal__foto {
+    .container-cor-principal__foto {
         width: 25%;
     }
 
@@ -189,7 +189,7 @@ body {
         font-size: 1em;
     }
 
-    .container-principal__foto {
+    .container-cor-principal__foto {
         margin-right: 1rem;
     }
 }
@@ -208,7 +208,7 @@ body {
         right: 0;
         top: 0;
         z-index: 10;
-        background-color: var(--branco);
+        background-color: var(--cor-secundaria);
         transition: .9s;
         padding-top: 60px;
         overflow-x: hidden;
@@ -216,7 +216,7 @@ body {
 
     .nav .fechar-menu {
         display: block;
-        color: var(--background-pagina);
+        color: var(--cor-principal);
         position: absolute;
         top: 10px;
         right: 25px;
@@ -241,12 +241,12 @@ body {
     }
 
     .nav__lista .item .botao {
-        color: var(--branco);
+        color: var(--cor-secundaria);
         background-color: var(--hover);
     }
 
     .nav__lista .item .botao:hover {
-        background-color: var(--branco);
+        background-color: var(--cor-secundaria);
         color: var(--hover);
     }
 
@@ -255,11 +255,11 @@ body {
         font-weight: 700;
     }
 
-    .container-principal {
+    .container-cor-principal {
         margin-top: 100px;
     }
 
-    .container-principal .TituloIcones {
+    .container-cor-principal .TituloIcones {
         height: 100%;
         margin-top: auto;
     }
@@ -276,7 +276,7 @@ body {
         justify-content: center;
     }
 
-    .container-principal__foto {
+    .container-cor-principal__foto {
         width: 60%;
         margin-right: 0;
     }    
