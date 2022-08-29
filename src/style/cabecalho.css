@@ -261,8 +261,6 @@ body {
 
     .TituloIcones .icones {
         font-size: 1.3rem;
-        display: flex;
-        justify-content: center;
     }
 
     .container-principal__foto {
