@@ -168,11 +168,6 @@ body {
 }
 
 @media screen and (max-width: 768px) and (min-width: 481px) {
-    .header {
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
-
     .container-principal .TituloIcones {
 	    justify-content: space-evenly;
     }
