@@ -151,7 +151,7 @@ body {
 }
 
 .container-principal__foto {
-    border: 1px solid var(--detalhes);
+    border: 10px double var(--detalhes);
     border-radius: 50%;
 }
 
