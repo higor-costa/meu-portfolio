@@ -230,10 +230,6 @@ body {
 }
 
 @media screen and (max-width: 768px) and (min-width: 481px) {
-    .container-principal .TituloIcones {
-	    justify-content: space-evenly;
-    }
-
     .container-principal__foto {
         width: 15rem;
     }
