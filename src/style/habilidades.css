@@ -40,20 +40,20 @@
     align-items: center;
     padding: 15px;
     border-radius: 10px;
-    border: 1px solid var(--branco);
+    border: 1px solid var(--cor-secundaria);
     transition: box-shadow, border-color 1s;
 }
 
 .habilidade:hover {
     box-shadow: 0 0 15px 1px #ff000094;
-    border-color: var(--hover);
+    border-color: var(--detalhes);
 }
 
 .habilidade__nome {
     font-family: var(--font-russo);
     font-size: .8em;
     text-transform: uppercase;
-    color: var(--branco);
+    color: var(--cor-secundaria);
 }
 
 .habilidade .fa-brands {
