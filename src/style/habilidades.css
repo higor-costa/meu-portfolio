@@ -2,7 +2,9 @@
 
 :root {
     --font-poppins: 'Poppins', sans-serif;
-    --background-pagina: #0f100f;
+    --cor-principal: #0f100f;
+    --cor-secundaria: #ffffff;
+    --detalhes: #AB0000;
 }
 
 .habilidades {
