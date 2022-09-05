@@ -32,7 +32,7 @@
     }
 }
 
-@media screen and (max-width: 1278px) and (min-width: 769px){
+@media screen and (max-width: 1500px) and (min-width: 1000px){
     .container__ParagrafoBotao {
         width: 60%;
     }
