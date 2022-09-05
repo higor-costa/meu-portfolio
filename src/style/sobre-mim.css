@@ -33,7 +33,9 @@
 }
 
 @media screen and (min-width: 2100px) {
-    
+    .container__ParagrafoBotao {
+        width: 30%;
+    }
 }
 
 @media screen and (max-width: 1500px) and (min-width: 1000px){
