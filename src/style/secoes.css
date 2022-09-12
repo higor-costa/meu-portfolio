@@ -54,16 +54,3 @@
     background-color: var(--cor-secundaria);
     color: var(--detalhes);
 }
-
-.seta {
-    display: flex;
-    justify-content: center;
-    font-size: 2.5em;
-    color: var(--detalhes);
-    transition: .5s;
-    margin-bottom: 20px;
-}
-
-.seta:hover {
-    color: var(--cor-secundaria);
-}
