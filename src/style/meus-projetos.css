@@ -1,3 +1,8 @@
+:root {
+    --cor-principal: #0f100f;
+    --detalhes: #AB0000;
+}
+
 .meus-projetos .projetos {
     width: 80%;
     height: 20rem;
