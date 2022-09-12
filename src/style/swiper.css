@@ -22,13 +22,13 @@
 }
 
 .swiper .swiper-button-next, .swiper .swiper-button-prev {
-    color: var(--hover);
+    color: var(--detalhes);
 }
 
 .swiper .swiper-pagination-bullet-active {
-    background: var(--hover);
+    background: var(--detalhes);
 }
 
 .swiper .swiper-pagination-bullet {
-    background: var(--hover);
+    background: var(--detalhes);
 }
