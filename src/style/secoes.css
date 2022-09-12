@@ -17,7 +17,6 @@ main {
 .secao__titulo {
     font: 2.5em var(--font-courier);
     text-align: center;
-    margin-bottom: 50px;
 }
 
 .secao__titulo {
