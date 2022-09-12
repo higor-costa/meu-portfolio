@@ -3,10 +3,10 @@
     --font-courier: 'Courier Prime', monospace;
     --font-russo: 'Russo One', sans-serif;
 
-    --background-pagina: #0f100f;
-    --branco: #ffffff;
+    --cor-principal: #0f100f;
+    --cor-secundaria: #ffffff;
     --preto: #000000;
-    --hover: #AB0000;
+    --detalhes: #AB0000;
 }
 
 .secao__titulo {
