@@ -21,14 +21,12 @@
     align-items: center;
 }
 
-.swiper .swiper-button-next, .swiper .swiper-button-prev {
+.swiper .swiper-button-next, 
+.swiper .swiper-button-prev {
     color: var(--detalhes);
 }
 
-.swiper .swiper-pagination-bullet-active {
-    background: var(--detalhes);
-}
-
+.swiper .swiper-pagination-bullet-active,
 .swiper .swiper-pagination-bullet {
     background: var(--detalhes);
 }
