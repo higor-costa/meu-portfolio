@@ -26,7 +26,6 @@
 
 .projeto__botoes .projeto__btn {
     width: 100%;
-    text-align: center;
     color: white;
     padding: 5px 0;
     background-color: var(--hover);
