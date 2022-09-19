@@ -1,15 +1,13 @@
 'use strict'
 
-const abrirMenu = document.querySelector('.abrir-menu')
-abrirMenu.addEventListener("click", openMenu)
+document.querySelector('.abrir-menu').addEventListener("click", openMenu)
 
 function openMenu() {
     document.querySelector('.header__modal').style.display = 'block';
     document.querySelector(".nav").style.width = "250px";
 }
 
-const fecharMenu  = document.querySelector('.fechar-menu')
-fecharMenu.addEventListener("click", closeMenu)
+document.querySelector('.fechar-menu').addEventListener("click", closeMenu)
 
 function closeMenu() {
     document.querySelector(".nav").style.width = "0px";
