@@ -1,6 +1,6 @@
 const larguraJanela = window.innerWidth;
 
-if (larguraDispositivo >= 768) {
+if (larguraJanela >= 768) {
   var swiper = new Swiper(".mySwiper", {
     slidesPerView: 2,
     spaceBetween: 30,
