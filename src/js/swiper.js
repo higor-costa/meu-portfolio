@@ -1,4 +1,4 @@
-const larguraDispositivo = window.screen.width 
+const larguraJanela = window.innerWidth;
 
 if (larguraDispositivo >= 768) {
   var swiper = new Swiper(".mySwiper", {
