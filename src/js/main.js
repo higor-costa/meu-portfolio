@@ -11,11 +11,11 @@ function menu(controle) {
     }
 }
 
-function menuOpcao() {
-    const larguraDispositivo = window.screen.width
+function menuMobile() {
+    const larguraJanela = window.innerWidth
     
-    if(larguraDispositivo <= 480) {
-        closeMenu()
+    if(larguraJanela <= 768) {
+        menu('fechar')
     }
 }
 
