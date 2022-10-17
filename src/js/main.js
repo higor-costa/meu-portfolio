@@ -12,7 +12,7 @@ function menu(controle) {
         document.querySelector(".nav").style.width = "0px";
         document.querySelector('.header__modal').style.display = 'none';
     containerTopo.appendChild(nav);
-    }
+  }
 }
 
 // Fecha o menu quando o usuário clica em alguma das opções do próprio
