@@ -6,11 +6,11 @@ const header = document.querySelector(".header");
 function menu(controle) {
     if (controle == 'abrir') {
         document.querySelector('.header__modal').style.display = 'block';
-        document.querySelector(".nav").style.width = "250px";
-    }
-    else {
-        document.querySelector(".nav").style.width = "0px";
-        document.querySelector('.header__modal').style.display = 'none';
+    document.querySelector('.nav').style.width = '250px';
+    header.appendChild(nav);
+  } else {
+    document.querySelector('.nav').style.width = '0px';
+    document.querySelector('.header__modal').style.display = 'none';
     containerTopo.appendChild(nav);
   }
 }
