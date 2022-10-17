@@ -4,8 +4,8 @@ const containerTopo = document.querySelector(".container-topo");
 const nav = document.querySelector(".nav");
 const header = document.querySelector(".header");
 function menu(controle) {
-    if (controle == 'abrir') {
-        document.querySelector('.header__modal').style.display = 'block';
+  if (controle == 'abrir') {
+    document.querySelector('.header__modal').style.display = 'block';
     document.querySelector('.nav').style.width = '250px';
     header.appendChild(nav);
   } else {
