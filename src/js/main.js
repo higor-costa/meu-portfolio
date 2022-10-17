@@ -15,6 +15,7 @@ function menu(controle) {
     }
 }
 
+// Fecha o menu quando o usuário clica em alguma das opções do próprio
 function menuMobile() {
     const larguraJanela = window.innerWidth
     
