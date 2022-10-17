@@ -11,6 +11,7 @@ function menu(controle) {
     else {
         document.querySelector(".nav").style.width = "0px";
         document.querySelector('.header__modal').style.display = 'none';
+    containerTopo.appendChild(nav);
     }
 }
 
