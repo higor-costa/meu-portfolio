@@ -19,9 +19,9 @@ function menu(controle) {
 function menuMobile() {
   const larguraJanela = window.innerWidth;
 
-    if(larguraJanela <= 768) {
-        menu('fechar')
-    }
+  if (larguraJanela <= 768) {
+    menu("fechar");
+  }
 }
 
 const btnHome = document.querySelector(".item")
