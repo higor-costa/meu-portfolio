@@ -1,5 +1,8 @@
 'use strict'
 
+const containerTopo = document.querySelector(".container-topo");
+const nav = document.querySelector(".nav");
+const header = document.querySelector(".header");
 function menu(controle) {
     if (controle == 'abrir') {
         document.querySelector('.header__modal').style.display = 'block';
