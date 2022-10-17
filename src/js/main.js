@@ -29,3 +29,8 @@ const btnInicio = document
   .addEventListener("click", () => {
     window.scrollTo(0, 0);
   });
+
+
+function redimensionaMenu() {
+
+}
