@@ -8,10 +8,12 @@ function menu(controle) {
     document.querySelector(".header__modal").style.display = "block";
     document.querySelector(".nav").style.width = "250px";
     header.appendChild(nav);
+    containerTopo.style.zIndex = "0"
   } else {
     document.querySelector(".nav").style.width = "0px";
     document.querySelector(".header__modal").style.display = "none";
     containerTopo.appendChild(nav);
+    containerTopo.style.zIndex = "10"
   }
 }
 
