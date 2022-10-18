@@ -1,4 +1,8 @@
 const larguraJanela = window.innerWidth;
+window.addEventListener("resize", function () {
+  const larguraNavegador = document.documentElement.clientWidth;
+  quantidadeProjetos(larguraNavegador);
+});
 
 if (larguraJanela >= 768) {
   var swiper = new Swiper(".mySwiper", {
