@@ -39,3 +39,6 @@ else {
     },
   });
 }
+}
+
+quantidadeProjetos(larguraJanela);
