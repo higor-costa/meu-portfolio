@@ -42,3 +42,4 @@ function redimensionaMenu() {
     document.querySelector(".nav").style.width = "0px";
   }
 }
+window.addEventListener("resize", redimensionaMenu);
