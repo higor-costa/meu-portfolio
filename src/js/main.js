@@ -32,5 +32,5 @@ const btnInicio = document
 
 
 function redimensionaMenu() {
-
+  const larguraJanela = document.documentElement.clientWidth;
 }
