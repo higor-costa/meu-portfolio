@@ -33,4 +33,12 @@ const btnInicio = document
 
 function redimensionaMenu() {
   const larguraJanela = document.documentElement.clientWidth;
+  if (larguraJanela > 768) {
+    
+    document.querySelector(".nav").style.width = "40rem";
+    document.querySelector(".header__modal").style.display = "none";
+  }
+  else {
+    document.querySelector(".nav").style.width = "0px";
+  }
 }
