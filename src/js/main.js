@@ -40,6 +40,9 @@ function redimensionaMenu() {
     document.querySelector(".nav").style.width = "40rem";
     document.querySelector(".header__modal").style.display = "none";
   }
+  else if (larguraJanela <= 768 && nav.style.width === '250px'){
+    document.querySelector(".nav") = "250px";
+  }
   else {
     document.querySelector(".nav").style.width = "0px";
   }
