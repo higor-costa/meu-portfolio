@@ -44,15 +44,24 @@ const btnInicio = document
     window.scrollTo(0, 0);
   });
 
+// Função para controle do menu quando a página for redimensionada
 function redimensionaMenu() {
   const larguraJanela = document.documentElement.clientWidth;
+  // Caso o menu mobile esteja aberto e a janela seja redimensionada para uma largura maior que 768px, 
+  // o menu voltará a ser filho do container topo e terá uma largura de 40rem, 
+  // enquanto o modal será escondido
   if (larguraJanela > 768) {
     containerTopo.appendChild(nav);
     nav.style.width = '40rem';
     headerModal.style.display = 'none';
-  } else if (larguraJanela <= 768 && nav.style.width === '250px') {
+  } 
+  //  Este else if evita que o menu seja fechado quando as condições forem atendidas
+  else if (larguraJanela <= 768 && nav.style.width === '250px') {
     nav = '250px';
-  } else {
+  } 
+  // Este else evita que o menu fique com 40rem de largura
+  // quando a janela for redimensionada para uma lagura igual ou menor a 768px
+  else {
     nav.style.width = '0px';
   }
 }
