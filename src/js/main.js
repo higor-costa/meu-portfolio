@@ -37,6 +37,7 @@ function menuMobile() {
   }
 }
 
+//  Ao clicar no primeiro item do menu, ocorrerá uma rolagem para o topo da página
 const btnInicio = document
   .querySelector('.item')
   .addEventListener('click', () => {
