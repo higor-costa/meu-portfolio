@@ -27,10 +27,11 @@ function menu(controle) {
   }
 }
 
-// Fecha o menu quando o usuário clica em alguma das opções do próprio
+// Fecha o menu quando o usuário clica em alguma das opções do próprio, 
+// mas somente se a largura da janela for menor ou igual a 768px.
+// A invocação da função é feita através de onclick no HTML
 function menuMobile() {
   const larguraJanela = window.innerWidth;
-
   if (larguraJanela <= 768) {
     menu('fechar');
   }
