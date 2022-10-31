@@ -5,13 +5,21 @@ const nav = document.querySelector('.nav');
 const header = document.querySelector('.header');
 const headerModal = document.querySelector('.header__modal');
 
+// Função para controle da abertura e fachamento do menu. Ao parâmetro "Controle", através de um botão, pode ser atribuido os valores 
+// "abrir" ou "fechar". 
 function menu(controle) {
+  // Se for passado o 1º valor: o modal ficará visivel e irá sobrepor os outros elementos com exceção do menu,
+  // o menu terá uma largura de 250px e se tornará filho direto da header,
+  // Enquanto o container topo ficará sob o modal
   if (controle == 'abrir') {
     headerModal.style.display = 'block';
     nav.style.width = '250px';
     header.appendChild(nav);
     containerTopo.style.zIndex = '0';
-  } else {
+  } 
+  // Se for passado o 2º valor: o menu será filho do container topo e ficará escondido, assim como o modal. 
+  // O container topo irá sobrepor todos os outros elementos.
+  else {
     nav.style.width = '0px';
     headerModal.style.display = 'none';
     containerTopo.appendChild(nav);
