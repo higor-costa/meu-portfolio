@@ -1,9 +1,13 @@
 const larguraJanela = window.innerWidth;
+
+// Ao redimensionar a página, a largura da janela será atribuida a uma variável. 
+// Essa variável será passada como argumento para a função "quantidadeProjetos"
 window.addEventListener("resize", function () {
   const larguraNavegador = document.documentElement.clientWidth;
   quantidadeProjetos(larguraNavegador);
 });
 
+// Define, de acordo com a largura da janela, a quantidade de projetos que serão exibidos na seção "Projetos"
 function quantidadeProjetos(larguraNavegador) {
   if (larguraNavegador >= 768) {
     var swiper = new Swiper(".mySwiper", {
@@ -41,4 +45,5 @@ function quantidadeProjetos(larguraNavegador) {
   }
 }
 
+// Invoca a função assim que a página é carregada
 quantidadeProjetos(larguraJanela);
