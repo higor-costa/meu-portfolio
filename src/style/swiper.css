@@ -30,3 +30,19 @@
 .swiper .swiper-pagination-bullet {
     background: var(--detalhes);
 }
+
+@media screen and (min-width: 580px) {
+    .swiper .swiper-horizontal>.swiper-pagination-bullets, 
+    .swiper .swiper-pagination-bullets.swiper-pagination-horizontal, 
+    .swiper .swiper-pagination-custom, .swiper-pagination-fraction {
+        bottom: 10%;
+    }
+}
+
+@media screen and (max-width: 579px) {
+    .swiper .swiper-horizontal>.swiper-pagination-bullets, 
+    .swiper .swiper-pagination-bullets.swiper-pagination-horizontal, 
+    .swiper .swiper-pagination-custom, .swiper-pagination-fraction {
+        bottom: 30px;
+    }
+}
