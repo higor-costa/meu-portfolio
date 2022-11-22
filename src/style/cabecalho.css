@@ -26,17 +26,6 @@ body {
     padding: 2em 0em;
 }
 
-.header .header__modal {
-    display: none;
-    position: fixed;
-    z-index: 3;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.608);
-}
-
 .header .container-topo {
     display: flex;
     justify-content: space-between;
@@ -47,6 +36,17 @@ body {
     padding: 0.8rem 2rem;
     background: #0f100fb3;
     z-index: 10;
+}
+
+.container-topo .modal {
+    display: none;
+    position: fixed;
+    z-index: 3;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.608);
 }
 
 .container-topo .logo {
