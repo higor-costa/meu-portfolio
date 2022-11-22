@@ -12,18 +12,14 @@ function menu(controle) {
   // o menu terá uma largura de 250px e se tornará filho direto da header,
   // Enquanto o container topo ficará sob o modal
   if (controle == 'abrir') {
-    headerModal.style.display = 'block';
     nav.style.width = '250px';
-    header.appendChild(nav);
-    containerTopo.style.zIndex = '0';
+    modal.style.display = 'block';
   } 
   // Se for passado o 2º valor: o menu será filho do container topo e ficará escondido, assim como o modal. 
   // O container topo irá sobrepor todos os outros elementos.
   else {
     nav.style.width = '0px';
-    headerModal.style.display = 'none';
-    containerTopo.appendChild(nav);
-    containerTopo.style.zIndex = '10';
+    modal.style.display = 'none';
   }
 }
 
@@ -51,9 +47,8 @@ function redimensionaMenu() {
   // o menu voltará a ser filho do container topo e terá uma largura de 40rem, 
   // enquanto o modal será escondido
   if (larguraJanela > 768) {
-    containerTopo.appendChild(nav);
     nav.style.width = '40rem';
-    headerModal.style.display = 'none';
+    modal.style.display = 'none';
   } 
   //  Este else if evita que o menu seja fechado quando as condições forem atendidas
   else if (larguraJanela <= 768 && nav.style.width === '250px') {
