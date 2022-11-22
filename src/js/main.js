@@ -3,7 +3,7 @@
 const containerTopo = document.querySelector('.container-topo');
 const nav = document.querySelector('.nav');
 const header = document.querySelector('.header');
-const headerModal = document.querySelector('.header__modal');
+const modal = document.querySelector('.modal');
 
 // Função para controle da abertura e fachamento do menu. Ao parâmetro "Controle", através de um botão, pode ser atribuido os valores 
 // "abrir" ou "fechar". 
