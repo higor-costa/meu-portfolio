@@ -1,337 +1,234 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Higor Costa | Portfólio</title>
-    <link rel="shortcut icon" href="src/img/favicon.png" type="image/x-icon" />
-    <link rel="stylesheet" href="src/style/cabecalho.css" />
-    <link rel="stylesheet" href="src/style/secoes.css" />
-    <link rel="stylesheet" href="src/style/sobre-mim.css" />
-    <link rel="stylesheet" href="src/style/habilidades.css" />
-    <link rel="stylesheet" href="src/style/swiper.css" />
-    <link rel="stylesheet" href="src/style/meus-projetos.css" />
-    <link rel="stylesheet" href="src/style/modal.css" />
-    <link rel="stylesheet" href="src/style/footer.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
-    />
-  </head>
 
-  <body>
-    <header class="header">
-      <div class="container-topo">
-        <div class="modal"></div>
-        <img src="src/img/logo.png" alt="logo" class="logo" />
-        <i class="fa-solid fa-bars abrir-menu" onclick="menu('abrir')"></i>
-        <nav class="nav">
-          <i class="fa-solid fa-xmark fechar-menu" onclick="menu('fechar')"></i>
-          <ul class="nav__lista">
-            <li class="item" onclick="menuMobile()">
-              <a href="#home" class="nav__ancora">Início</a>
-            </li>
-            <li class="item" onclick="menuMobile()">
-              <a href="#sobre-mim" class="nav__ancora">Sobre mim</a>
-            </li>
-            <li class="item" onclick="menuMobile()">
-              <a href="#habilidades" class="nav__ancora">Habilidades</a>
-            </li>
-            <li class="item" onclick="menuMobile()">
-              <a href="#meus-projetos" class="nav__ancora">Projetos</a>
-            </li>
-            <li class="item">
-              <a
-                href="src/docs/higor-costa-curriculo.rar"
-                download="higor-costa-curriculo.rar"
-                type="application/rar"
-                class="botao"
-                >Download CV</a
-              >
-            </li>
-          </ul>
-        </nav>
-      </div>
-      <div class="container-principal">
-        <img
-          src="src/img/minha-foto.png"
-          alt="Foto de Higor Costa"
-          class="container-principal__foto"
-        />
-        <div class="TituloIcones">
-          <h1 class="titulo">
-            Oi, <br />
-            eu sou Higor Costa <br />
-            <span>Desenvolvedor Web Front-end</span>
-          </h1>
-          <div class="icones">
-            <a
-              href="https://www.linkedin.com/in/higor-costa-/"
-              target="_blank"
-              title="Linkedin"
-            >
-              <i class="fa-brands fa-linkedin-in"></i>
-            </a>
-            <a
-              href="https://github.com/higor-costa"
-              target="_blank"
-              title="GitHub"
-            >
-              <i class="fa-brands fa-github"></i>
-            </a>
-            <a
-              href="mailto:higorcosta972@gmail.com"
-              target="_blank"
-              title="E-mail"
-            >
-              <i class="fa-solid fa-envelope"></i>
-            </a>
-            <a
-              href="https://api.whatsapp.com/send?phone=5587981093238"
-              target="_blank"
-              title="Whatsapp"
-            >
-              <i class="fa-brands fa-whatsapp"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Higor Costa | Portfólio</title>
+  <link rel="shortcut icon" href="src/img/favicon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="src/style/cabecalho.css" />
+  <link rel="stylesheet" href="src/style/secoes.css" />
+  <link rel="stylesheet" href="src/style/sobre-mim.css" />
+  <link rel="stylesheet" href="src/style/habilidades.css" />
+  <link rel="stylesheet" href="src/style/swiper.css" />
+  <link rel="stylesheet" href="src/style/meus-projetos.css" />
+  <link rel="stylesheet" href="src/style/modal.css" />
+  <link rel="stylesheet" href="src/style/footer.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+</head>
 
-    <main>
-      <section class="sobre-mim" id="sobre-mim">
-        <div class="sobre-mim__container">
-          <h2 class="secao__titulo">Sobre mim</h2>
-          <img
-            src="src/img/minha-foto.png"
-            alt="Foto de Higor Costa"
-            class="container__img"
-          />
-          <div class="container__ParagrafoBotao">
-            <p class="container__paragrafo paragrafos">
-              Meu nome é Higor Costa e tenho 21 anos. Por gostar muito de
-              tecnologia, entrar no mundo da programação sempre foi uma opção
-              para mim. Aos 18 anos, através de um curso de algoritmos, tive o
-              meu primeiro contato com a programação, mas foi bem breve.
-            </p>
-            <br />
-            <p class="container__paragrafo paragrafos">
-              Aos 20 anos, decidi recomeçar. Pesquisei melhor por onde deveria
-              iniciar, pois da primeira vez estava bem perdido. Dessa forma,
-              retomei os estudos com HTML5 e CSS3.
-            </p>
-            <br />
-            <p class="container__paragrafo paragrafos">
-              Hoje, com 21 anos, continuo estudando por meio de cursos online,
-              projetos pessoais, documentações e estou no 1º semestre do curso 
-              de Análise e Desenvolvimento de Sistemas. Durante esse tempo, 
-              adquiri conhecimento em HTML, CSS, JS, Git, GitHub e Bootstrap. Na
-              sequência, quero dar início em ReactJs.
-            </p>
-            <br />
-            <p class="container__paragrafo paragrafos">
-              Diante disso, estou à procura de um estágio de
-              Desenvolvedor Web Front-end. Ainda não tenho experiência
-              profissional, portanto estou em busca da minha primeira oportunidade.
-            </p>
-            <a
-              href="src/docs/higor-costa-curriculo.rar"
-              download="higor-costa-curriculo.rar"
-              type="application/rar"
-              class="botao"
-              >Download CV</a
-            >
-          </div>
-        </div>
-      </section>
-
-      <section class="habilidades" id="habilidades">
-        <h2 class="secao__titulo">Habilidades</h2>
-        <div class="container-habilidades">
-          <div class="habilidade html">
-            <h3 class="habilidade__nome">html</h3>
-            <i class="fa-brands fa-html5"></i>
-          </div>
-
-          <div class="habilidade css">
-            <h3 class="habilidade__nome">css</h3>
-            <i class="fa-brands fa-css3-alt"></i>
-          </div>
-
-          <div class="habilidade js">
-            <h3 class="habilidade__nome">javascript</h3>
-            <i class="fa-brands fa-js"></i>
-          </div>
-
-          <div class="habilidade github">
-            <h3 class="habilidade__nome">github</h3>
-            <i class="fa-brands fa-github"></i>
-          </div>
-
-          <div class="habilidade git">
-            <h3 class="habilidade__nome">git</h3>
-            <i class="fa-brands fa-git-alt"></i>
-          </div>
-
-          <div class="habilidade bootstrap">
-            <h3 class="habilidade__nome">Bootstrap</h3>
-            <i class="fa-brands fa-bootstrap"></i>
-          </div>
-        </div>
-      </section>
-
-      <section class="meus-projetos" id="meus-projetos">
-        <h2 class="secao__titulo">Projetos</h2>
-        <div class="projetos swiper mySwiper">
-          <div class="swiper-wrapper">
-            <div class="projeto swiper-slide">
-              <img
-                src="./src/img/screenshot-pagina-de-ecommerce-pp.png"
-                alt="Página de E-commerce"
-              />
-              <div class="projeto__botoes botoes">
-                <a
-                  href="https://higor-costa.github.io/pagina-de-produto-de-comercio-eletronico/"
-                  target="_blank"
-                  class="projeto__btn"
-                  >Visitar página</a
-                >
-                <a
-                  href="https://github.com/higor-costa/pagina-de-produto-de-comercio-eletronico"
-                  target="_blank"
-                  class="projeto__btn"
-                  >Repositório</a
-                >
-              </div>
-            </div>
-
-            <div class="projeto swiper-slide">
-              <img
-                src="./src/img/screenshot-lading-page-huddle-pp.png"
-                alt="Landing Page"
-              />
-              <div class="projeto__botoes botoes">
-                <a
-                  href="https://higor-costa.github.io/pagina-destino-huddle/"
-                  target="_blank"
-                  class="projeto__btn"
-                  >Visitar página</a
-                >
-                <a
-                  href="https://github.com/higor-costa/pagina-destino-huddle"
-                  target="_blank"
-                  class="projeto__btn"
-                  >Repositório</a
-                >
-              </div>
-            </div>
-
-            <div class="projeto swiper-slide">
-              <img
-                src="./src/img/screenshot-cartao-nft-pp.png"
-                alt="Cartão NFT"
-              />
-              <div class="projeto__botoes botoes">
-                <a
-                  href="https://higor-costa.github.io/pagina-destino-huddle/"
-                  target="_blank"
-                  class="projeto__btn"
-                  >Visitar página</a
-                >
-                <a
-                  href="https://github.com/higor-costa/pagina-destino-huddle"
-                  target="_blank"
-                  class="projeto__btn"
-                  >Repositório</a
-                >
-              </div>
-            </div>
-
-            <div class="projeto swiper-slide">
-              <img
-                src="./src/img/screenshot-secao-de-comentarios-pp.png"
-                alt="Seção de comentários"
-              />
-              <div class="projeto__botoes botoes">
-                <a
-                  href="https://higor-costa.github.io/pagina-destino-huddle/"
-                  target="_blank"
-                  class="projeto__btn"
-                  >Visitar página</a
-                >
-                <a
-                  href="https://github.com/higor-costa/pagina-destino-huddle"
-                  target="_blank"
-                  class="projeto__btn"
-                  >Repositório</a
-                >
-              </div>
-            </div>
-
-            <div class="projeto swiper-slide">
-              <img
-                src="./src/img/screenshot-page-secao-introdutoria.png"
-                alt="Seção introdutória"
-              />
-              <div class="projeto__botoes botoes">
-                <a
-                  href="https://higor-costa.github.io/huddle-landing-page-secao-introdutoria/"
-                  target="_blank"
-                  class="projeto__btn"
-                  >Visitar página</a
-                >
-                <a
-                  href="https://github.com/higor-costa/huddle-landing-page-secao-introdutoria"
-                  target="_blank"
-                  class="projeto__btn"
-                  >Repositório</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-pagination"></div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="rodape">
+<body>
+  <header class="header">
+    <div class="container-topo">
+      <div class="modal"></div>
       <img src="src/img/logo.png" alt="logo" class="logo" />
-      <div class="icones">
-        <a
-          href="https://www.linkedin.com/in/higor-costa-/"
-          target="_blank"
-          title="Linkedin"
-        >
-          <i class="fa-brands fa-linkedin-in"></i>
-        </a>
-        <a href="https://github.com/higor-costa" target="_blank" title="GitHub">
-          <i class="fa-brands fa-github"></i>
-        </a>
-        <a href="mailto:higorcosta972@gmail.com" target="_blank" title="E-mail">
-          <i class="fa-solid fa-envelope"></i>
-        </a>
-        <a
-          href="https://api.whatsapp.com/send?phone=5587981093238"
-          target="_blank"
-          title="Whatsapp"
-        >
-          <i class="fa-brands fa-whatsapp"></i>
-        </a>
+      <i class="fa-solid fa-bars abrir-menu" onclick="menu('abrir')"></i>
+      <nav class="nav">
+        <i class="fa-solid fa-xmark fechar-menu" onclick="menu('fechar')"></i>
+        <ul class="nav__lista">
+          <li class="item" onclick="menuMobile()">
+            <a href="#home" class="nav__ancora">Início</a>
+          </li>
+          <li class="item" onclick="menuMobile()">
+            <a href="#sobre-mim" class="nav__ancora">Sobre mim</a>
+          </li>
+          <li class="item" onclick="menuMobile()">
+            <a href="#habilidades" class="nav__ancora">Habilidades</a>
+          </li>
+          <li class="item" onclick="menuMobile()">
+            <a href="#meus-projetos" class="nav__ancora">Projetos</a>
+          </li>
+          <li class="item">
+            <a href="src/docs/higor-costa-curriculo.rar" download="higor-costa-curriculo.rar" type="application/rar"
+              class="botao">Download CV</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container-principal">
+      <img src="src/img/minha-foto.png" alt="Foto de Higor Costa" class="container-principal__foto" />
+      <div class="TituloIcones">
+        <h1 class="titulo">
+          Oi, <br />
+          eu sou Higor Costa <br />
+          <span>Desenvolvedor Web Front-end</span>
+        </h1>
+        <div class="icones">
+          <a href="https://www.linkedin.com/in/higor-costa-/" target="_blank" title="Linkedin">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/higor-costa" target="_blank" title="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="mailto:higorcosta972@gmail.com" target="_blank" title="E-mail">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+          <a href="https://api.whatsapp.com/send?phone=5587981093238" target="_blank" title="Whatsapp">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+        </div>
       </div>
-      <span class="rodape__direitos"
-        >&#169; Higor Costa | Todos os direitos reservados.</span
-      >
-    </footer>
+    </div>
+  </header>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-    <script
-      src="https://kit.fontawesome.com/47c43d19e3.js"
-      crossorigin="anonymous"
-    ></script>
-    <script src="src/js/main.js"></script>
-    <script src="src/js/swiper.js"></script>
-  </body>
+  <main>
+    <section class="sobre-mim" id="sobre-mim">
+      <div class="sobre-mim__container">
+        <h2 class="secao__titulo">Sobre mim</h2>
+        <img src="src/img/minha-foto.png" alt="Foto de Higor Costa" class="container__img" />
+        <div class="container__ParagrafoBotao">
+          <p class="container__paragrafo paragrafos">
+            Meu nome é Higor Costa e tenho 21 anos. Por gostar muito de
+            tecnologia, entrar no mundo da programação sempre foi uma opção
+            para mim. Aos 18 anos, através de um curso de algoritmos, tive o
+            meu primeiro contato com a programação, mas foi bem breve.
+          </p>
+          <br />
+          <p class="container__paragrafo paragrafos">
+            Aos 20 anos, decidi recomeçar. Pesquisei melhor por onde deveria
+            iniciar, pois da primeira vez estava bem perdido. Dessa forma,
+            retomei os estudos com HTML5 e CSS3.
+          </p>
+          <br />
+          <p class="container__paragrafo paragrafos">
+            Hoje, com 21 anos, continuo estudando por meio de cursos online,
+            projetos pessoais, documentações e estou no 1º semestre do curso
+            de Análise e Desenvolvimento de Sistemas. Durante esse tempo,
+            adquiri conhecimento em HTML, CSS, JS, Git, GitHub e Bootstrap. Na
+            sequência, quero dar início em ReactJs.
+          </p>
+          <br />
+          <p class="container__paragrafo paragrafos">
+            Diante disso, estou à procura de um estágio de
+            Desenvolvedor Web Front-end. Ainda não tenho experiência
+            profissional, portanto estou em busca da minha primeira oportunidade.
+          </p>
+          <a href="src/docs/higor-costa-curriculo.rar" download="higor-costa-curriculo.rar" type="application/rar"
+            class="botao">Download CV</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="habilidades" id="habilidades">
+      <h2 class="secao__titulo">Habilidades</h2>
+      <div class="container-habilidades">
+        <div class="habilidade html">
+          <h3 class="habilidade__nome">html</h3>
+          <i class="fa-brands fa-html5"></i>
+        </div>
+
+        <div class="habilidade css">
+          <h3 class="habilidade__nome">css</h3>
+          <i class="fa-brands fa-css3-alt"></i>
+        </div>
+
+        <div class="habilidade js">
+          <h3 class="habilidade__nome">javascript</h3>
+          <i class="fa-brands fa-js"></i>
+        </div>
+
+        <div class="habilidade github">
+          <h3 class="habilidade__nome">github</h3>
+          <i class="fa-brands fa-github"></i>
+        </div>
+
+        <div class="habilidade git">
+          <h3 class="habilidade__nome">git</h3>
+          <i class="fa-brands fa-git-alt"></i>
+        </div>
+
+        <div class="habilidade bootstrap">
+          <h3 class="habilidade__nome">Bootstrap</h3>
+          <i class="fa-brands fa-bootstrap"></i>
+        </div>
+      </div>
+    </section>
+
+    <section class="meus-projetos" id="meus-projetos">
+      <h2 class="secao__titulo">Projetos</h2>
+      <div class="projetos swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="projeto swiper-slide">
+            <img src="./src/img/screenshot-pagina-de-ecommerce-pp.png" alt="Página de E-commerce" />
+            <div class="projeto__botoes botoes">
+              <a href="https://higor-costa.github.io/pagina-de-produto-de-comercio-eletronico/" target="_blank"
+                class="projeto__btn">Visitar página</a>
+              <a href="https://github.com/higor-costa/pagina-de-produto-de-comercio-eletronico" target="_blank"
+                class="projeto__btn">Repositório</a>
+            </div>
+          </div>
+
+          <div class="projeto swiper-slide">
+            <img src="./src/img/screenshot-lading-page-huddle-pp.png" alt="Landing Page" />
+            <div class="projeto__botoes botoes">
+              <a href="https://higor-costa.github.io/pagina-destino-huddle/" target="_blank"
+                class="projeto__btn">Visitar página</a>
+              <a href="https://github.com/higor-costa/pagina-destino-huddle" target="_blank"
+                class="projeto__btn">Repositório</a>
+            </div>
+          </div>
+
+          <div class="projeto swiper-slide">
+            <img src="./src/img/screenshot-cartao-nft-pp.png" alt="Cartão NFT" />
+            <div class="projeto__botoes botoes">
+              <a href="https://higor-costa.github.io/pagina-destino-huddle/" target="_blank"
+                class="projeto__btn">Visitar página</a>
+              <a href="https://github.com/higor-costa/pagina-destino-huddle" target="_blank"
+                class="projeto__btn">Repositório</a>
+            </div>
+          </div>
+
+          <div class="projeto swiper-slide">
+            <img src="./src/img/screenshot-secao-de-comentarios-pp.png" alt="Seção de comentários" />
+            <div class="projeto__botoes botoes">
+              <a href="https://higor-costa.github.io/pagina-destino-huddle/" target="_blank"
+                class="projeto__btn">Visitar página</a>
+              <a href="https://github.com/higor-costa/pagina-destino-huddle" target="_blank"
+                class="projeto__btn">Repositório</a>
+            </div>
+          </div>
+
+          <div class="projeto swiper-slide">
+            <img src="./src/img/screenshot-page-secao-introdutoria.png" alt="Seção introdutória" />
+            <div class="projeto__botoes botoes">
+              <a href="https://higor-costa.github.io/huddle-landing-page-secao-introdutoria/" target="_blank"
+                class="projeto__btn">Visitar página</a>
+              <a href="https://github.com/higor-costa/huddle-landing-page-secao-introdutoria" target="_blank"
+                class="projeto__btn">Repositório</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <img src="src/img/logo.png" alt="logo" class="logo" />
+    <div class="icones">
+      <a href="https://www.linkedin.com/in/higor-costa-/" target="_blank" title="Linkedin">
+        <i class="fa-brands fa-linkedin-in"></i>
+      </a>
+      <a href="https://github.com/higor-costa" target="_blank" title="GitHub">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <a href="mailto:higorcosta972@gmail.com" target="_blank" title="E-mail">
+        <i class="fa-solid fa-envelope"></i>
+      </a>
+      <a href="https://api.whatsapp.com/send?phone=5587981093238" target="_blank" title="Whatsapp">
+        <i class="fa-brands fa-whatsapp"></i>
+      </a>
+    </div>
+    <span class="rodape__direitos">&#169; Higor Costa | Todos os direitos reservados.</span>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/47c43d19e3.js" crossorigin="anonymous"></script>
+  <script src="src/js/main.js"></script>
+  <script src="src/js/swiper.js"></script>
+</body>
+
 </html>
