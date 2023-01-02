@@ -27,12 +27,25 @@ function menuMobile() {
   }
 }
 
-//  Ao clicar no primeiro item do menu, ocorrerá uma rolagem para o topo da página
-const btnInicio = document
-  .querySelector('.item')
-  .addEventListener('click', () => {
-    window.scrollTo(0, 0);
+// Função para navegação interna
+function scrollSuave() {
+  const linksInternos = document.querySelectorAll('a[href^="#"]');
+
+  function scrollParaSection(event) {
+    event.preventDefault();
+    const href = event.currentTarget.getAttribute('href');
+    const section = document.querySelector(href);
+    section.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+    });
+  }
+
+  // [Inicio, Sobre Mim. Habilidades, Meus Projetos]
+  linksInternos.forEach(link => {
+    link.addEventListener('click', scrollParaSection);
   });
+}
 
 // Função para controle do menu quando a página for redimensionada
 function redimensionaMenu() {
