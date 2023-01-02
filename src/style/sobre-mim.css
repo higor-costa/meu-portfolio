@@ -15,10 +15,47 @@
     flex-direction: column;
     align-items: center;
     width: 50%;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+}
+
+.container__ParagrafoBotao::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(transparent, var(--cor-principal));
+}
+
+.container__ParagrafoBotao.ativo {
+    height: auto;
+}
+
+.container__ParagrafoBotao.ativo::before {
+    visibility: hidden;
 }
 
 .container__paragrafo {
     text-align: justify;
+}
+
+.container__ParagrafoBotao .botao {
+    margin: 30px 0 15px 0;
+}
+
+.botao-VerMais {
+    display: inline-block;
+    background-color: transparent;
+    color: var(--detalhes);
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.botao-VerMais:hover {
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 1279px) {
