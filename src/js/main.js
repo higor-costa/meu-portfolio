@@ -46,6 +46,7 @@ function scrollSuave() {
     link.addEventListener('click', scrollParaSection);
   });
 }
+scrollSuave();
 
 // Função para controle do menu quando a página for redimensionada
 function redimensionaMenu() {
