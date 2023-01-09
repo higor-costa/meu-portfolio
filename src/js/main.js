@@ -35,9 +35,10 @@ function scrollSuave() {
     event.preventDefault();
     const href = event.currentTarget.getAttribute('href');
     const section = document.querySelector(href);
-    section.scrollIntoView({
+    const topo = section.offsetTop;
+    window.scrollTo({
       behavior: 'smooth',
-      block: 'start',
+      top: topo - 82,
     });
   }
 
