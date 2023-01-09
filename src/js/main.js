@@ -49,6 +49,20 @@ function scrollSuave() {
 }
 scrollSuave();
 
+// Animação para rolagem
+const sections = document.querySelectorAll('[data-scroll]');
+const windowMetade = window.innerHeight * 0.6;
+function animaScroll() {
+    sections.forEach(section => {
+      const sectionTopo = section.getBoundingClientRect().top ;
+      const sectionVisivel = (sectionTopo - windowMetade) < 0;
+      if (sectionVisivel)
+        section.classList.add('ativo');
+    });
+}
+animaScroll();
+window.addEventListener('scroll', animaScroll);
+
 // Função para controle do menu quando a página for redimensionada
 function redimensionaMenu() {
   const larguraJanela = document.documentElement.clientWidth;
