@@ -31,6 +31,10 @@
     background: var(--detalhes);
 }
 
+.swiper-wrapper .swiper-slide {
+    display: flex;
+}
+
 @media screen and (min-width: 580px) {
     .swiper .swiper-horizontal>.swiper-pagination-bullets, 
     .swiper .swiper-pagination-bullets.swiper-pagination-horizontal, 
