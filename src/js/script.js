@@ -1,9 +1,9 @@
-import animaScroll from './js/animaScroll.js';
-import controleMenu from './js/controleMenu.js';
-import lerMais from './js/lerMais.js';
-import redimensionaMenu from './js/redimensionaMenu.js';
-import scrollSuave from './js/scrollSuave.js';
-import quantidadeProjetos from './js/swiper.js';
+import animaScroll from './modules/animaScroll.js';
+import controleMenu from './modules/controleMenu.js';
+import lerMais from './modules/lerMais.js';
+import redimensionaMenu from './modules/redimensionaMenu.js';
+import scrollSuave from './modules/scrollSuave.js';
+import quantidadeProjetos from './modules/swiper.js';
 
 animaScroll();
 controleMenu();
