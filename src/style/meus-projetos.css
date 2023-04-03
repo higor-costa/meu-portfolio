@@ -18,13 +18,6 @@
     flex-direction: column;
 }
 
-.projeto img {
-    width: 100%;
-    height: 50%;
-    border: 3px solid var(--detalhes);
-    border-radius: 10px 10px 0 0;
-}
-
 .projeto .projeto__botoes {
     width: 100%;
     display: flex;
