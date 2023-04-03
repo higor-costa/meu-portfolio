@@ -12,7 +12,6 @@
 .meus-projetos .projetos {
     display: flex;
     width: 80%;
-    height: 20rem;
 }
 
 .projetos .projeto {
