@@ -3,7 +3,14 @@
     --detalhes: #AB0000;
 }
 
+.meus-projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .meus-projetos .projetos {
+    display: flex;
     width: 80%;
     height: 20rem;
 }
