@@ -23,7 +23,7 @@ main {
     text-align: center;
 }
 
-.secao__titulo:not(.meus-projetos > .secao__titulo) {
+.secao__titulo {
     margin-bottom: 50px;
 }
 
