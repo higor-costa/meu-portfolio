@@ -40,6 +40,14 @@
     background-image: url('../img/screenshot-page-secao-introdutoria.png');
 }
 
+.projeto.lading-page-huddle,
+.projeto.formulario-de-varias-etapas,
+.projeto.busque-cep,
+.projeto.secao-de-comentarios,
+.projeto.page-secao-introdutoria {
+    background-size: 20rem 12rem;
+}
+
 .projeto .projeto__botoes {
     width: 100%;
     display: flex;
