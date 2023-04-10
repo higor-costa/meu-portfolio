@@ -18,7 +18,8 @@
 }
 
 .projetos .projeto {
-    flex-direction: column;
+    width: 20rem;
+    height: 12rem;
 }
 
 .projeto .projeto__botoes {
