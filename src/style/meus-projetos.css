@@ -24,6 +24,22 @@
     border-radius: 5px;
 }
 
+.projeto.lading-page-huddle {
+    background-image: url('../img/screenshot-lading-page-huddle-pp.png');
+}
+.projeto.formulario-de-varias-etapas {
+    background-image: url('../img/screenshot-formulario-de-varias-etapas.png');
+}
+.projeto.busque-cep {
+    background-image: url('../img/screenshot-busque-cep.png');
+}
+.projeto.secao-de-comentarios {
+    background-image: url('../img/screenshot-secao-de-comentarios-pp.png');
+}
+.projeto.page-secao-introdutoria {
+    background-image: url('../img/screenshot-page-secao-introdutoria.png');
+}
+
 .projeto .projeto__botoes {
     width: 100%;
     display: flex;
