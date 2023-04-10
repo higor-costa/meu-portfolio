@@ -11,6 +11,7 @@
 
 .meus-projetos .projetos {
     display: flex;
+    flex-wrap: wrap;
     width: 80%;
 }
 
