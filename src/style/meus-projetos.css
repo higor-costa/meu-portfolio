@@ -50,6 +50,7 @@
 
 .projeto .projeto__descricao {
     height: calc(100% - 30px);
+    display: none;
 }
 
 .projeto .projeto__botoes {
