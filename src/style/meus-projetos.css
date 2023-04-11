@@ -57,6 +57,10 @@
     background: rgba(0, 0, 0, .6);
 }
 
+.projeto .projeto__tecnologias {
+    font-size: 2rem;
+}
+
 .projeto .projeto__botoes {
     width: 100%;
     display: none;
