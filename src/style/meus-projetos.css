@@ -67,6 +67,11 @@
     font-size: .8rem;
 }
 
+.projeto:hover .projeto__descricao,
+.projeto:hover .projeto__botoes {
+    display: flex;
+}
+
 .projeto__botoes .projeto__btn {
     width: 100%;
     color: white;
