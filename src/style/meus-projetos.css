@@ -59,7 +59,7 @@
 
 .projeto .projeto__botoes {
     width: 100%;
-    display: flex;
+    display: none;
     border: 3px solid var(--detalhes);
     border-radius: 0 0 10px 10px;
     border-top: none;
