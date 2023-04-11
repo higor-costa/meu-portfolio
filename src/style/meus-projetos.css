@@ -48,6 +48,10 @@
     background-size: 20rem 12rem;
 }
 
+.projeto .projeto__descricao {
+    height: calc(100% - 30px);
+}
+
 .projeto .projeto__botoes {
     width: 100%;
     display: flex;
