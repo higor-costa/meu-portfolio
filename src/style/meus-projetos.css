@@ -52,6 +52,8 @@
     height: calc(100% - 30px);
     display: none;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .projeto .projeto__botoes {
