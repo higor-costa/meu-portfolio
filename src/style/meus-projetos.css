@@ -51,6 +51,7 @@
 .projeto .projeto__descricao {
     height: calc(100% - 30px);
     display: none;
+    flex-direction: column;
 }
 
 .projeto .projeto__botoes {
