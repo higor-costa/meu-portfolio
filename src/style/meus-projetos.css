@@ -84,7 +84,6 @@
 
 .projeto__botoes .projeto__btn:hover{
     background-color: transparent;
-    border-radius: 0 0 10px 10px;
 }
 
 .projeto__botoes .projeto__btn:first-child {
