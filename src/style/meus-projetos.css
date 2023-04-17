@@ -54,8 +54,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: rgba(0, 0, 0, .9);
 }
+
+.projeto .projeto__descricao,
+.projeto .projeto__botoes {
+    background: rgba(0, 0, 0, .9);
+} 
 
 .projeto .projeto__tecnologias {
     font-size: 2rem;
