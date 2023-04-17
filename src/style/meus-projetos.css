@@ -64,9 +64,8 @@
 .projeto .projeto__botoes {
     width: 100%;
     display: none;
-    border: 3px solid var(--detalhes);
+    border: 1px solid var(--detalhes);
     border-radius: 0 0 5px 5px;
-    border-top: none;
     font-family: 'Poppins', sans-serif;
     font-size: .8rem;
 }
