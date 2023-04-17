@@ -83,7 +83,7 @@
 }
 
 .projeto__botoes .projeto__btn:hover{
-    background-color: var(--cor-principal);
+    background-color: transparent;
     border-radius: 0 0 10px 10px;
 }
 
