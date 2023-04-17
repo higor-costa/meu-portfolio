@@ -66,6 +66,7 @@
     display: none;
     font-family: 'Poppins', sans-serif;
     font-size: .8rem;
+    text-align: center;
 }
 
 .projeto:hover .projeto__descricao,
