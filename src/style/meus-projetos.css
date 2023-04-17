@@ -49,7 +49,7 @@
 }
 
 .projeto .projeto__descricao {
-    height: calc(100% - 30px);
+    height: calc(100% - 28px);
     display: none;
     flex-direction: column;
     align-items: center;
