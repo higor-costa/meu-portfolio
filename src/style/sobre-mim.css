@@ -45,19 +45,6 @@
     margin: 30px 0 15px 0;
 }
 
-.botao-VerMais {
-    display: inline-block;
-    background-color: transparent;
-    color: var(--detalhes);
-    border: none;
-    cursor: pointer;
-    margin-top: 10px;
-}
-
-.botao-VerMais:hover {
-    text-decoration: underline;
-}
-
 @media screen and (max-width: 1279px) {
     .container__ParagrafoBotao .botao {
         margin-top: 50px;
