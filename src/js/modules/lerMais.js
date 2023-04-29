@@ -1,14 +1,31 @@
 "use strict";
 
-const botaoVerMais = document.querySelector("[data-ler-mais]");
-botaoVerMais.addEventListener("click", lerMais);
+const botoesVerMais = document.querySelectorAll("[data-ver-mais]");
+const container = document.querySelector("[data-container-paragrafo]");
+const projetosEscondidos = document.querySelector(".projetos-escondidos");
 
-export default function lerMais() {
-  const container = document.querySelector("[data-container-paragrafo]");
-  container.classList.toggle("ativo");
+botoesVerMais.forEach((botao, index) => {
+  botao.addEventListener("click", () => {
+    verMais(index)
+  });
+});
 
-  if (container.classList.contains("ativo"))
-    botaoVerMais.innerText = "Ler menos";
-  else 
-    botaoVerMais.innerText = "Continuar lendo";
+export default function verMais(index) {
+  const botao = botoesVerMais[index];
+  if (index === 0) {
+    container.classList.toggle('ativo');
+    if (container.classList.contains('ativo')) {
+      botao.innerText = 'Ler menos';
+    } else {
+      botao.innerText = 'Continuar lendo';
+    }
+  }
+  else {
+    projetosEscondidos.classList.toggle('ativo');
+    if (projetosEscondidos.classList.contains('ativo')) {
+      botao.innerText = 'Ver menos';
+    } else {
+      botao.innerText = 'Mais projetos';
+    }
+  }
 }
