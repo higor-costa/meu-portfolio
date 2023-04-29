@@ -9,6 +9,10 @@
     align-items: center;
 }
 
+.meus-projetos .botao {
+    display: none;
+}
+
 .meus-projetos .projetos {
     display: flex;
     flex-wrap: wrap;
@@ -117,6 +121,10 @@
 }
 
 @media screen and (max-width: 755px) {
+    .meus-projetos .botao {
+        display: inline;
+    }
+
     .projetos-escondidos {
         display: none;
     }
