@@ -28,6 +28,13 @@
     width: 100%;
 }
 
+.projetos-escondidos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
 .projetos .projeto {
     width: 20rem;
     height: 12rem;
@@ -107,4 +114,14 @@
 [data-scroll].ativo {
     opacity: 1;
     transform: translate3d(0, 0, 0);
+}
+
+@media screen and (max-width: 755px) {
+    .projetos-escondidos {
+        display: none;
+    }
+
+    .projetos-escondidos.ativo {
+        display: flex;
+    }
 }
