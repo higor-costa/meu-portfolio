@@ -118,6 +118,11 @@
 
 .projeto__botoes .projeto__btn:first-child {
     border-right: 1px solid black;
+    border-bottom-left-radius: 5px;
+}
+
+.projeto__botoes .projeto__btn:nth-child(2) {
+    border-bottom-right-radius: 5px;
 }
 
 [data-scroll] {
