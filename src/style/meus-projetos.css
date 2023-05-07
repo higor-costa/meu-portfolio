@@ -63,19 +63,30 @@
     background-image: url('../img/screenshot-page-secao-introdutoria.png');
 }
 
-.projeto .projeto__descricao {
+.projeto .projeto__descricao,
+.projeto .projeto__botoes {
+    background: rgba(0, 0, 0, .9);
+    height: 0px;
+    opacity: 0;
+    transition: height .8s, opacity .5s;
+}
+
+.projeto:hover .projeto__descricao,
+.projeto:hover .projeto__botoes {
+    opacity: 1;
+}
+
+.projeto:hover .projeto__descricao {
     height: calc(100% - 28px);
-    display: none;
+}
+
+.projeto .projeto__descricao {
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     user-select: none;
 }
-
-.projeto .projeto__descricao,
-.projeto .projeto__botoes {
-    background: rgba(0, 0, 0, .9);
-} 
 
 .projeto .projeto__tecnologias {
     font-size: 2rem;
@@ -83,15 +94,14 @@
 
 .projeto .projeto__botoes {
     width: 100%;
-    display: none;
+    display: flex;
     font-family: 'Poppins', sans-serif;
     font-size: .8rem;
     text-align: center;
 }
 
-.projeto:hover .projeto__descricao,
 .projeto:hover .projeto__botoes {
-    display: flex;
+    height: 28px;
 }
 
 .projeto__botoes .projeto__btn {
@@ -108,6 +118,11 @@
 
 .projeto__botoes .projeto__btn:first-child {
     border-right: 1px solid black;
+    border-bottom-left-radius: 5px;
+}
+
+.projeto__botoes .projeto__btn:nth-child(2) {
+    border-bottom-right-radius: 5px;
 }
 
 [data-scroll] {
