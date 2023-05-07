@@ -198,6 +198,8 @@ body {
 
     .nav .nav__lista {
         height: 50%;
+        width: max-content;
+        margin: 0 auto;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
