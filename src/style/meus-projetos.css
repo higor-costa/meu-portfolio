@@ -47,6 +47,9 @@
     background-size: 20rem 12rem;
 }
 
+.projeto.lista-de-tarefas {
+    background-image: url('../img/screenshot-lista-de-tarefas.png');
+}
 .projeto.landing-page-insure {
     background-image: url('../img/screenshot-insure.jpeg');
 }
